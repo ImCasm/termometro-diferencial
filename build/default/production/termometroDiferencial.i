@@ -1789,11 +1789,13 @@ extern char * ftoa(float f, int * status);
 
 
 int waiting = 1;
-int maxTemp = 150;
-int inConfTempMode = 1;
+unsigned int showDiferenceTemp = 0;
+unsigned int maxTemp = 150;
+unsigned int onConfTempMode = 1;
 char maxTempString[3];
-int cont = 0;
-int clear = 1;
+unsigned int cont = 0;
+unsigned int clear = 1;
+
 
 
 
@@ -1817,13 +1819,14 @@ void flank() {
 
 
 void sendNibble(int n, int rs) {
-    int d1 = n >> 2;
 
+
+    int d1 = n >> 2;
     PORTC = d1;
     RC0 = rs;
     flank();
-    int d2 = n << 2;
 
+    int d2 = n << 2;
     PORTC = d2;
     RC0 = rs;
     flank();
@@ -1888,7 +1891,7 @@ void clearLCD() {
 
 
 
-void conf() {
+void configThermo() {
     TRISC = 128;
     TRISA = 1;
     ADCON1 = 128;
@@ -1897,12 +1900,32 @@ void conf() {
     sendNibble(8, 0);
 }
 
-void confTeclado() {
+
+
+
+void configKeyboard() {
     OPTION_REG = 7;
     TRISB = 240;
     RBIE = 1;
     GIE = 1;
     RBIF = 1;
+}
+
+
+
+
+void configSerialPort() {
+    TRISC = 0;
+    SPEN = 1;
+    CREN = 0;
+    TXEN = 1;
+    SYNC = 0;
+    BRGH = 1;
+
+    TXIE = 1;
+    RCIE = 0;
+
+    SPBRG = 25.04166667;
 }
 
 
@@ -1921,19 +1944,32 @@ int getVoltaje() {
 
 
 
-char getTemperature() {
+int getTemperatureInt() {
+    int temp;
+    temp = getVoltaje()*0.4887585532746823;
+
+    return temp;
+}
+
+
+
+
+
+
+char getTemperatureString() {
     int temp;
     temp = getVoltaje()*0.4887585532746823;
     char str[12];
     sprintf(str, "%d", temp);
     strcat(str, "'C");
+
     return str;
 }
 
 
 
 
-void secuencia() {
+void ZeroSequenceKeyboard() {
     PORTB = 254;
     PORTB = 253;
     PORTB = 251;
@@ -1950,6 +1986,10 @@ void clearIfFirst() {
     }
 }
 
+
+
+
+
 void changeThermometerChannel(int channel) {
     if (channel == 2) {
         CHS0 = 1;
@@ -1958,7 +1998,10 @@ void changeThermometerChannel(int channel) {
     }
 }
 
-void tecla() {
+
+
+
+void keyboard() {
 
     switch (PORTB) {
         case 238:
@@ -2025,7 +2068,7 @@ void tecla() {
             }
             break;
         case 125:
-
+            showDiferenceTemp = 1;
             break;
         case 235:
             if (waiting) {
@@ -2058,6 +2101,7 @@ void tecla() {
             }
             break;
         case 123:
+            showDiferenceTemp = 0;
             changeThermometerChannel(1);
             break;
         case 231:
@@ -2078,18 +2122,20 @@ void tecla() {
             waiting = 0;
             break;
         case 119:
+            showDiferenceTemp = 0;
             changeThermometerChannel(2);
-            break;
-        default:
             break;
     }
 }
 
-void __attribute__((picinterrupt(("")))) accion(void) {
+
+
+
+void __attribute__((picinterrupt(("")))) globalInterruption(void) {
 
     if (INTCONbits.RBIF) {
 
-        tecla();
+        keyboard();
         _delay((unsigned long)((200)*(4000000/4000.0)));
 
         INTCONbits.RBIF = 0;
@@ -2098,35 +2144,103 @@ void __attribute__((picinterrupt(("")))) accion(void) {
 
 }
 
+
+
+
 void configTempMode() {
 
     writeOnLCD("Ingrese temp MAXIMA");
     writeOnLCD("Ingrese temp MAXIMA");
 
     while (waiting == 1) {
-        secuencia();
+        ZeroSequenceKeyboard();
     }
 
     if (maxTemp > 150) {
         maxTemp = 150;
     }
+}
 
 
 
+
+
+
+int isItHot(int temp) {
+    return temp > maxTemp;
+}
+
+
+
+
+
+void turnOnSerialAlarm(char message[]) {
+    for (int i = 0; i < strlen(message); i++) {
+        while (!TXIF);
+        TXREG = message[i];
+    }
+}
+
+
+
+
+void showDifferenceTemp() {
+
+    char tempDifference[5];
+
+    changeThermometerChannel(1);
+    _delay((unsigned long)((200)*(4000000/4000.0)));
+    int temp1 = getTemperatureInt();
+
+    changeThermometerChannel(2);
+    _delay((unsigned long)((200)*(4000000/4000.0)));
+    int temp2 = getTemperatureInt();
+
+    if (temp1 > temp2) {
+        sprintf(tempDifference, "%d", (temp1 - temp2));
+    } else {
+        sprintf(tempDifference, "%d", (temp2 - temp1));
+    }
+
+    clearLCD();
+    writeOnLCD(tempDifference);
+}
+
+
+
+
+void showTemp() {
+
+    int temp = getTemperatureInt();
+
+    if (isItHot(temp)) {
+
+        char msg[12] = "PELIGRO ";
+        turnOnSerialAlarm(msg);
+    }
+    writeOnLCD(getTemperatureString());
+    ZeroSequenceKeyboard();
 }
 
 void main(void) {
-    conf();
-    confTeclado();
 
-    configTempMode();
+    configThermo();
+    configKeyboard();
+    configSerialPort();
 
-    int leerTemperatura = 1;
-    while (leerTemperatura) {
-        writeOnLCD(getTemperature());
-        secuencia();
+    int running = 1;
+
+
+    while (running) {
+        if (onConfTempMode) {
+            configTempMode();
+            onConfTempMode = 0;
+        } else if (showDiferenceTemp) {
+            showDifferenceTemp();
+        } else {
+            showTemp();
+        }
     }
-
     wait();
 
     return;
