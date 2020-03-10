@@ -1,0 +1,1225 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"2464 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2464: extern volatile __bit RC1 __attribute__((address(0x39)));
+[v _RC1 `Vb ~T0 @X0 0 e@57 ]
+[v F761 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic.h
+[v __delay `JF761 ~T0 @X0 0 e ]
+[p i __delay ]
+"278 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 278: extern volatile unsigned char PORTC __attribute__((address(0x007)));
+[v _PORTC `Vuc ~T0 @X0 0 e@7 ]
+"2461
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2461: extern volatile __bit RC0 __attribute__((address(0x38)));
+[v _RC0 `Vb ~T0 @X0 0 e@56 ]
+"56 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\c90\string.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\c90\string.h: 56: extern size_t strlen(const char *);
+[v _strlen `(ui ~T0 @X0 0 ef1`*Cuc ]
+"1337 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1337: extern volatile unsigned char TRISC __attribute__((address(0x087)));
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"1225
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1225: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"2004
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2004: extern volatile unsigned char ADCON1 __attribute__((address(0x09F)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"1059
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1059: extern volatile unsigned char ADCON0 __attribute__((address(0x01F)));
+[v _ADCON0 `Vuc ~T0 @X0 0 e@31 ]
+"2158
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2158: extern volatile __bit ADCS0 __attribute__((address(0xFE)));
+[v _ADCS0 `Vb ~T0 @X0 0 e@254 ]
+"1155
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1155: extern volatile unsigned char OPTION_REG __attribute__((address(0x081)));
+[v _OPTION_REG `Vuc ~T0 @X0 0 e@129 ]
+"1275
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1275: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"2455
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2455: extern volatile __bit RBIE __attribute__((address(0x5B)));
+[v _RBIE `Vb ~T0 @X0 0 e@91 ]
+"2344
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2344: extern volatile __bit GIE __attribute__((address(0x5F)));
+[v _GIE `Vb ~T0 @X0 0 e@95 ]
+"2458
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2458: extern volatile __bit RBIF __attribute__((address(0x58)));
+[v _RBIF `Vb ~T0 @X0 0 e@88 ]
+"2347
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2347: extern volatile __bit GO __attribute__((address(0xFA)));
+[v _GO `Vb ~T0 @X0 0 e@250 ]
+"1052
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1052: extern volatile unsigned char ADRESH __attribute__((address(0x01E)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@30 ]
+"1997
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1997: extern volatile unsigned char ADRESL __attribute__((address(0x09E)));
+[v _ADRESL `Vuc ~T0 @X0 0 e@158 ]
+"194 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\c90\stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"36 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\c90\string.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\c90\string.h: 36: extern char * strcat(char *, const char *);
+[v _strcat `(*uc ~T0 @X0 0 ef2`*uc`*Cuc ]
+"216 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 216: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"2257
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2257: extern volatile __bit CHS0 __attribute__((address(0xFB)));
+[v _CHS0 `Vb ~T0 @X0 0 e@251 ]
+"67 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\c90\stdlib.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\c90\stdlib.h: 67: extern int atoi(const char *);
+[v _atoi `(i ~T0 @X0 0 ef1`*Cuc ]
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"366 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 366:     struct {
+[s S14 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . RBIF INTF TMR0IF RBIE INTE TMR0IE PEIE GIE ]
+"376
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 376:     struct {
+[s S15 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S15 . . T0IF . T0IE ]
+"365
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 365: typedef union {
+[u S13 `S14 1 `S15 1 ]
+[n S13 . . . ]
+"383
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 383: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS13 ~T0 @X0 0 e@11 ]
+[p mainexit ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 342: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"362
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 362: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"440
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 440: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"496
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 496: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"536
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 536: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"543
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 543: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"550
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 550: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"557
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 557: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"632
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 632: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"639
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 639: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"710
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 710: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"717
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 717: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"787
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 787: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"794
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 794: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"801
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 801: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"808
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 808: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"866
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 866: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"961
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 961: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"968
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 968: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"975
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 975: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"982
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 982: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"989
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 989: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"996
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 996: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1054
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1054: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1061
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1061: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1157
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1157: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1227
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1227: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1277
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1277: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1339
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1339: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1401
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1401: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1457
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1457: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1497
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1497: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1531
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1531: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1593
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1593: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1600
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1600: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1607
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1607: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"1776
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1776: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"1857
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1857: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"1864
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1864: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"1934
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1934: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"1999
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 1999: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2006
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2006: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2065
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2065: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2072
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2072: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2079
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2079: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2086
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2086: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2093
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2093: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2138
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f873a.h: 2138: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"8 termometroDiferencial.c
+[; ;termometroDiferencial.c: 8: int waiting = 1;
+[v _waiting `i ~T0 @X0 1 e ]
+[i _waiting
+-> 1 `i
+]
+"9
+[; ;termometroDiferencial.c: 9: int maxTemp = 150;
+[v _maxTemp `i ~T0 @X0 1 e ]
+[i _maxTemp
+-> 150 `i
+]
+"10
+[; ;termometroDiferencial.c: 10: int inConfTempMode = 1;
+[v _inConfTempMode `i ~T0 @X0 1 e ]
+[i _inConfTempMode
+-> 1 `i
+]
+"11
+[; ;termometroDiferencial.c: 11: char maxTempString[3];
+[v _maxTempString `uc ~T0 @X0 -> 3 `i e ]
+"12
+[; ;termometroDiferencial.c: 12: int cont = 0;
+[v _cont `i ~T0 @X0 1 e ]
+[i _cont
+-> 0 `i
+]
+"13
+[; ;termometroDiferencial.c: 13: int clear = 1;
+[v _clear `i ~T0 @X0 1 e ]
+[i _clear
+-> 1 `i
+]
+"18
+[; ;termometroDiferencial.c: 18: void wait() {
+[v _wait `(v ~T0 @X0 1 ef ]
+{
+[e :U _wait ]
+[f ]
+"19
+[; ;termometroDiferencial.c: 19:     while (1);
+[e :U 94 ]
+[e :U 93 ]
+[e $U 94  ]
+[e :U 95 ]
+"20
+[; ;termometroDiferencial.c: 20: }
+[e :UE 92 ]
+}
+"25
+[; ;termometroDiferencial.c: 25: void flank() {
+[v _flank `(v ~T0 @X0 1 ef ]
+{
+[e :U _flank ]
+[f ]
+"26
+[; ;termometroDiferencial.c: 26:     RC1 = 1;
+[e = _RC1 -> -> 1 `i `b ]
+"27
+[; ;termometroDiferencial.c: 27:     _delay((unsigned long)((1)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"28
+[; ;termometroDiferencial.c: 28:     RC1 = 0;
+[e = _RC1 -> -> 0 `i `b ]
+"29
+[; ;termometroDiferencial.c: 29: }
+[e :UE 96 ]
+}
+"36
+[; ;termometroDiferencial.c: 36: void sendNibble(int n, int rs) {
+[v _sendNibble `(v ~T0 @X0 1 ef2`i`i ]
+{
+[e :U _sendNibble ]
+[v _n `i ~T0 @X0 1 r1 ]
+[v _rs `i ~T0 @X0 1 r2 ]
+[f ]
+"37
+[; ;termometroDiferencial.c: 37:     int d1 = n >> 2;
+[v _d1 `i ~T0 @X0 1 a ]
+[e = _d1 >> _n -> 2 `i ]
+"39
+[; ;termometroDiferencial.c: 39:     PORTC = d1;
+[e = _PORTC -> _d1 `uc ]
+"40
+[; ;termometroDiferencial.c: 40:     RC0 = rs;
+[e = _RC0 -> _rs `b ]
+"41
+[; ;termometroDiferencial.c: 41:     flank();
+[e ( _flank ..  ]
+"42
+[; ;termometroDiferencial.c: 42:     int d2 = n << 2;
+[v _d2 `i ~T0 @X0 1 a ]
+[e = _d2 << _n -> 2 `i ]
+"44
+[; ;termometroDiferencial.c: 44:     PORTC = d2;
+[e = _PORTC -> _d2 `uc ]
+"45
+[; ;termometroDiferencial.c: 45:     RC0 = rs;
+[e = _RC0 -> _rs `b ]
+"46
+[; ;termometroDiferencial.c: 46:     flank();
+[e ( _flank ..  ]
+"47
+[; ;termometroDiferencial.c: 47: }
+[e :UE 97 ]
+}
+"52
+[; ;termometroDiferencial.c: 52: void turnOnLCD() {
+[v _turnOnLCD `(v ~T0 @X0 1 ef ]
+{
+[e :U _turnOnLCD ]
+[f ]
+"53
+[; ;termometroDiferencial.c: 53:     int turnOn = 14;
+[v _turnOn `i ~T0 @X0 1 a ]
+[e = _turnOn -> 14 `i ]
+"54
+[; ;termometroDiferencial.c: 54:     int d1 = turnOn >> 2;
+[v _d1 `i ~T0 @X0 1 a ]
+[e = _d1 >> _turnOn -> 2 `i ]
+"56
+[; ;termometroDiferencial.c: 56:     PORTC = d1;
+[e = _PORTC -> _d1 `uc ]
+"57
+[; ;termometroDiferencial.c: 57:     RC0 = 0;
+[e = _RC0 -> -> 0 `i `b ]
+"58
+[; ;termometroDiferencial.c: 58:     flank();
+[e ( _flank ..  ]
+"59
+[; ;termometroDiferencial.c: 59:     int d2 = turnOn << 2;
+[v _d2 `i ~T0 @X0 1 a ]
+[e = _d2 << _turnOn -> 2 `i ]
+"61
+[; ;termometroDiferencial.c: 61:     PORTC = d2;
+[e = _PORTC -> _d2 `uc ]
+"62
+[; ;termometroDiferencial.c: 62:     RC0 = 0;
+[e = _RC0 -> -> 0 `i `b ]
+"63
+[; ;termometroDiferencial.c: 63:     flank();
+[e ( _flank ..  ]
+"64
+[; ;termometroDiferencial.c: 64: }
+[e :UE 98 ]
+}
+"71
+[; ;termometroDiferencial.c: 71: void putCharacter(char character, int position) {
+[v _putCharacter `(v ~T0 @X0 1 ef2`uc`i ]
+{
+[e :U _putCharacter ]
+[v _character `uc ~T0 @X0 1 r1 ]
+[v _position `i ~T0 @X0 1 r2 ]
+[f ]
+"73
+[; ;termometroDiferencial.c: 73:     sendNibble(128 + position, 0);
+[e ( _sendNibble (2 , + -> 128 `i _position -> 0 `i ]
+"75
+[; ;termometroDiferencial.c: 75:     sendNibble(character, 1);
+[e ( _sendNibble (2 , -> _character `i -> 1 `i ]
+"77
+[; ;termometroDiferencial.c: 77:     turnOnLCD();
+[e ( _turnOnLCD ..  ]
+"78
+[; ;termometroDiferencial.c: 78: }
+[e :UE 99 ]
+}
+"84
+[; ;termometroDiferencial.c: 84: void writeWord(char word[]) {
+[v _writeWord `(v ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _writeWord ]
+[v _word `*uc ~T0 @X0 1 r1 ]
+[f ]
+"85
+[; ;termometroDiferencial.c: 85:     for (int i = 0; i < strlen(word); i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $U 104  ]
+[e :U 101 ]
+{
+"86
+[; ;termometroDiferencial.c: 86:         putCharacter(word[i], i);
+[e ( _putCharacter (2 , *U + _word * -> _i `x -> -> # *U _word `i `x _i ]
+"87
+[; ;termometroDiferencial.c: 87:     }
+}
+[e ++ _i -> 1 `i ]
+[e :U 104 ]
+[e $ < -> _i `ui ( _strlen (1 -> _word `*Cuc 101  ]
+[e :U 102 ]
+}
+"88
+[; ;termometroDiferencial.c: 88: }
+[e :UE 100 ]
+}
+"94
+[; ;termometroDiferencial.c: 94: void writeOnLCD(char word[]) {
+[v _writeOnLCD `(v ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _writeOnLCD ]
+[v _word `*uc ~T0 @X0 1 r1 ]
+[f ]
+"95
+[; ;termometroDiferencial.c: 95:     writeWord(word);
+[e ( _writeWord (1 _word ]
+"96
+[; ;termometroDiferencial.c: 96: }
+[e :UE 105 ]
+}
+"101
+[; ;termometroDiferencial.c: 101: void clearLCD() {
+[v _clearLCD `(v ~T0 @X0 1 ef ]
+{
+[e :U _clearLCD ]
+[f ]
+"102
+[; ;termometroDiferencial.c: 102:     sendNibble(1, 0);
+[e ( _sendNibble (2 , -> 1 `i -> 0 `i ]
+"103
+[; ;termometroDiferencial.c: 103: }
+[e :UE 106 ]
+}
+"108
+[; ;termometroDiferencial.c: 108: void conf() {
+[v _conf `(v ~T0 @X0 1 ef ]
+{
+[e :U _conf ]
+[f ]
+"109
+[; ;termometroDiferencial.c: 109:     TRISC = 128;
+[e = _TRISC -> -> 128 `i `uc ]
+"110
+[; ;termometroDiferencial.c: 110:     TRISA = 1;
+[e = _TRISA -> -> 1 `i `uc ]
+"111
+[; ;termometroDiferencial.c: 111:     ADCON1 = 128;
+[e = _ADCON1 -> -> 128 `i `uc ]
+"112
+[; ;termometroDiferencial.c: 112:     ADCON0 = 1;
+[e = _ADCON0 -> -> 1 `i `uc ]
+"113
+[; ;termometroDiferencial.c: 113:     ADCS0 = 1;
+[e = _ADCS0 -> -> 1 `i `b ]
+"114
+[; ;termometroDiferencial.c: 114:     sendNibble(8, 0);
+[e ( _sendNibble (2 , -> 8 `i -> 0 `i ]
+"115
+[; ;termometroDiferencial.c: 115: }
+[e :UE 107 ]
+}
+"117
+[; ;termometroDiferencial.c: 117: void confTeclado() {
+[v _confTeclado `(v ~T0 @X0 1 ef ]
+{
+[e :U _confTeclado ]
+[f ]
+"118
+[; ;termometroDiferencial.c: 118:     OPTION_REG = 7;
+[e = _OPTION_REG -> -> 7 `i `uc ]
+"119
+[; ;termometroDiferencial.c: 119:     TRISB = 240;
+[e = _TRISB -> -> 240 `i `uc ]
+"120
+[; ;termometroDiferencial.c: 120:     RBIE = 1;
+[e = _RBIE -> -> 1 `i `b ]
+"121
+[; ;termometroDiferencial.c: 121:     GIE = 1;
+[e = _GIE -> -> 1 `i `b ]
+"122
+[; ;termometroDiferencial.c: 122:     RBIF = 1;
+[e = _RBIF -> -> 1 `i `b ]
+"123
+[; ;termometroDiferencial.c: 123: }
+[e :UE 108 ]
+}
+"129
+[; ;termometroDiferencial.c: 129: int getVoltaje() {
+[v _getVoltaje `(i ~T0 @X0 1 ef ]
+{
+[e :U _getVoltaje ]
+[f ]
+"130
+[; ;termometroDiferencial.c: 130:     GO = 1;
+[e = _GO -> -> 1 `i `b ]
+"131
+[; ;termometroDiferencial.c: 131:     while (GO) {
+[e $U 110  ]
+[e :U 111 ]
+{
+"132
+[; ;termometroDiferencial.c: 132:     };
+}
+[e :U 110 ]
+"131
+[; ;termometroDiferencial.c: 131:     while (GO) {
+[e $ _GO 111  ]
+[e :U 112 ]
+"133
+[; ;termometroDiferencial.c: 133:     return ADRESH * 256 + ADRESL;
+[e ) + * -> _ADRESH `i -> 256 `i -> _ADRESL `i ]
+[e $UE 109  ]
+"134
+[; ;termometroDiferencial.c: 134: }
+[e :UE 109 ]
+}
+"141
+[; ;termometroDiferencial.c: 141: char getTemperature() {
+[v _getTemperature `(uc ~T0 @X0 1 ef ]
+{
+[e :U _getTemperature ]
+[f ]
+"142
+[; ;termometroDiferencial.c: 142:     int temp;
+[v _temp `i ~T0 @X0 1 a ]
+"143
+[; ;termometroDiferencial.c: 143:     temp = getVoltaje()*0.4887585532746823;
+[e = _temp -> * -> ( _getVoltaje ..  `d .0.4887585532746823 `i ]
+"144
+[; ;termometroDiferencial.c: 144:     char str[12];
+[v _str `uc ~T0 @X0 -> 12 `i a ]
+"145
+[; ;termometroDiferencial.c: 145:     sprintf(str, "%d", temp);
+[e ( _sprintf (1 , (. , &U _str :s 1C _temp ]
+"146
+[; ;termometroDiferencial.c: 146:     strcat(str, "'C");
+[e ( _strcat (2 , &U _str :s 2C ]
+"147
+[; ;termometroDiferencial.c: 147:     return str;
+[e ) -> &U _str `uc ]
+[e $UE 113  ]
+"148
+[; ;termometroDiferencial.c: 148: }
+[e :UE 113 ]
+}
+"153
+[; ;termometroDiferencial.c: 153: void secuencia() {
+[v _secuencia `(v ~T0 @X0 1 ef ]
+{
+[e :U _secuencia ]
+[f ]
+"154
+[; ;termometroDiferencial.c: 154:     PORTB = 254;
+[e = _PORTB -> -> 254 `i `uc ]
+"155
+[; ;termometroDiferencial.c: 155:     PORTB = 253;
+[e = _PORTB -> -> 253 `i `uc ]
+"156
+[; ;termometroDiferencial.c: 156:     PORTB = 251;
+[e = _PORTB -> -> 251 `i `uc ]
+"157
+[; ;termometroDiferencial.c: 157:     PORTB = 247;
+[e = _PORTB -> -> 247 `i `uc ]
+"158
+[; ;termometroDiferencial.c: 158: }
+[e :UE 114 ]
+}
+"163
+[; ;termometroDiferencial.c: 163: void clearIfFirst() {
+[v _clearIfFirst `(v ~T0 @X0 1 ef ]
+{
+[e :U _clearIfFirst ]
+[f ]
+"164
+[; ;termometroDiferencial.c: 164:     if (clear == 1) {
+[e $ ! == _clear -> 1 `i 116  ]
+{
+"165
+[; ;termometroDiferencial.c: 165:         clearLCD();
+[e ( _clearLCD ..  ]
+"166
+[; ;termometroDiferencial.c: 166:         clear = 0;
+[e = _clear -> 0 `i ]
+"167
+[; ;termometroDiferencial.c: 167:     }
+}
+[e :U 116 ]
+"168
+[; ;termometroDiferencial.c: 168: }
+[e :UE 115 ]
+}
+"170
+[; ;termometroDiferencial.c: 170: void changeThermometerChannel(int channel) {
+[v _changeThermometerChannel `(v ~T0 @X0 1 ef1`i ]
+{
+[e :U _changeThermometerChannel ]
+[v _channel `i ~T0 @X0 1 r1 ]
+[f ]
+"171
+[; ;termometroDiferencial.c: 171:     if (channel == 2) {
+[e $ ! == _channel -> 2 `i 118  ]
+{
+"172
+[; ;termometroDiferencial.c: 172:         CHS0 = 1;
+[e = _CHS0 -> -> 1 `i `b ]
+"173
+[; ;termometroDiferencial.c: 173:     } else {
+}
+[e $U 119  ]
+[e :U 118 ]
+{
+"174
+[; ;termometroDiferencial.c: 174:         CHS0 = 0;
+[e = _CHS0 -> -> 0 `i `b ]
+"175
+[; ;termometroDiferencial.c: 175:     }
+}
+[e :U 119 ]
+"176
+[; ;termometroDiferencial.c: 176: }
+[e :UE 117 ]
+}
+"178
+[; ;termometroDiferencial.c: 178: void tecla() {
+[v _tecla `(v ~T0 @X0 1 ef ]
+{
+[e :U _tecla ]
+[f ]
+"180
+[; ;termometroDiferencial.c: 180:     switch (PORTB) {
+[e $U 122  ]
+{
+"181
+[; ;termometroDiferencial.c: 181:         case 238:
+[e :U 123 ]
+"182
+[; ;termometroDiferencial.c: 182:             if (waiting) {
+[e $ ! != _waiting -> 0 `i 124  ]
+{
+"183
+[; ;termometroDiferencial.c: 183:                 clearIfFirst();
+[e ( _clearIfFirst ..  ]
+"184
+[; ;termometroDiferencial.c: 184:                 if (cont < 3) {
+[e $ ! < _cont -> 3 `i 125  ]
+{
+"185
+[; ;termometroDiferencial.c: 185:                     maxTempString[cont] = '7';
+[e = *U + &U _maxTempString * -> -> _cont `ui `ux -> -> # *U &U _maxTempString `ui `ux -> -> 55 `ui `uc ]
+"186
+[; ;termometroDiferencial.c: 186:                     putCharacter('7', cont);
+[e ( _putCharacter (2 , -> -> 55 `ui `uc _cont ]
+"187
+[; ;termometroDiferencial.c: 187:                     cont++;
+[e ++ _cont -> 1 `i ]
+"188
+[; ;termometroDiferencial.c: 188:                 }
+}
+[e :U 125 ]
+"189
+[; ;termometroDiferencial.c: 189:             }
+}
+[e :U 124 ]
+"190
+[; ;termometroDiferencial.c: 190:             break;
+[e $U 121  ]
+"191
+[; ;termometroDiferencial.c: 191:         case 222:
+[e :U 126 ]
+"192
+[; ;termometroDiferencial.c: 192:             if (waiting) {
+[e $ ! != _waiting -> 0 `i 127  ]
+{
+"193
+[; ;termometroDiferencial.c: 193:                 clearIfFirst();
+[e ( _clearIfFirst ..  ]
+"194
+[; ;termometroDiferencial.c: 194:                 if (cont < 3) {
+[e $ ! < _cont -> 3 `i 128  ]
+{
+"195
+[; ;termometroDiferencial.c: 195:                     maxTempString[cont] = '8';
+[e = *U + &U _maxTempString * -> -> _cont `ui `ux -> -> # *U &U _maxTempString `ui `ux -> -> 56 `ui `uc ]
+"196
+[; ;termometroDiferencial.c: 196:                     putCharacter('8', cont);
+[e ( _putCharacter (2 , -> -> 56 `ui `uc _cont ]
+"197
+[; ;termometroDiferencial.c: 197:                     cont++;
+[e ++ _cont -> 1 `i ]
+"198
+[; ;termometroDiferencial.c: 198:                 }
+}
+[e :U 128 ]
+"199
+[; ;termometroDiferencial.c: 199:             }
+}
+[e :U 127 ]
+"200
+[; ;termometroDiferencial.c: 200:             break;
+[e $U 121  ]
+"201
+[; ;termometroDiferencial.c: 201:         case 190:
+[e :U 129 ]
+"202
+[; ;termometroDiferencial.c: 202:             if (waiting) {
+[e $ ! != _waiting -> 0 `i 130  ]
+{
+"203
+[; ;termometroDiferencial.c: 203:                 clearIfFirst();
+[e ( _clearIfFirst ..  ]
+"204
+[; ;termometroDiferencial.c: 204:                 if (cont < 3) {
+[e $ ! < _cont -> 3 `i 131  ]
+{
+"205
+[; ;termometroDiferencial.c: 205:                     maxTempString[cont] = '9';
+[e = *U + &U _maxTempString * -> -> _cont `ui `ux -> -> # *U &U _maxTempString `ui `ux -> -> 57 `ui `uc ]
+"206
+[; ;termometroDiferencial.c: 206:                     putCharacter('9', cont);
+[e ( _putCharacter (2 , -> -> 57 `ui `uc _cont ]
+"207
+[; ;termometroDiferencial.c: 207:                     cont++;
+[e ++ _cont -> 1 `i ]
+"208
+[; ;termometroDiferencial.c: 208:                 }
+}
+[e :U 131 ]
+"209
+[; ;termometroDiferencial.c: 209:             }
+}
+[e :U 130 ]
+"210
+[; ;termometroDiferencial.c: 210:             break;
+[e $U 121  ]
+"211
+[; ;termometroDiferencial.c: 211:         case 126:
+[e :U 132 ]
+"213
+[; ;termometroDiferencial.c: 213:             break;
+[e $U 121  ]
+"214
+[; ;termometroDiferencial.c: 214:         case 237:
+[e :U 133 ]
+"215
+[; ;termometroDiferencial.c: 215:             if (waiting) {
+[e $ ! != _waiting -> 0 `i 134  ]
+{
+"216
+[; ;termometroDiferencial.c: 216:                 clearIfFirst();
+[e ( _clearIfFirst ..  ]
+"217
+[; ;termometroDiferencial.c: 217:                 if (cont < 3) {
+[e $ ! < _cont -> 3 `i 135  ]
+{
+"218
+[; ;termometroDiferencial.c: 218:                     maxTempString[cont] = '4';
+[e = *U + &U _maxTempString * -> -> _cont `ui `ux -> -> # *U &U _maxTempString `ui `ux -> -> 52 `ui `uc ]
+"219
+[; ;termometroDiferencial.c: 219:                     putCharacter('4', cont);
+[e ( _putCharacter (2 , -> -> 52 `ui `uc _cont ]
+"220
+[; ;termometroDiferencial.c: 220:                     cont++;
+[e ++ _cont -> 1 `i ]
+"221
+[; ;termometroDiferencial.c: 221:                 }
+}
+[e :U 135 ]
+"222
+[; ;termometroDiferencial.c: 222:             }
+}
+[e :U 134 ]
+"223
+[; ;termometroDiferencial.c: 223:             break;
+[e $U 121  ]
+"224
+[; ;termometroDiferencial.c: 224:         case 221:
+[e :U 136 ]
+"225
+[; ;termometroDiferencial.c: 225:             if (waiting) {
+[e $ ! != _waiting -> 0 `i 137  ]
+{
+"226
+[; ;termometroDiferencial.c: 226:                 clearIfFirst();
+[e ( _clearIfFirst ..  ]
+"227
+[; ;termometroDiferencial.c: 227:                 if (cont < 3) {
+[e $ ! < _cont -> 3 `i 138  ]
+{
+"228
+[; ;termometroDiferencial.c: 228:                     maxTempString[cont] = '5';
+[e = *U + &U _maxTempString * -> -> _cont `ui `ux -> -> # *U &U _maxTempString `ui `ux -> -> 53 `ui `uc ]
+"229
+[; ;termometroDiferencial.c: 229:                     putCharacter('5', cont);
+[e ( _putCharacter (2 , -> -> 53 `ui `uc _cont ]
+"230
+[; ;termometroDiferencial.c: 230:                     cont++;
+[e ++ _cont -> 1 `i ]
+"231
+[; ;termometroDiferencial.c: 231:                 }
+}
+[e :U 138 ]
+"232
+[; ;termometroDiferencial.c: 232:             }
+}
+[e :U 137 ]
+"233
+[; ;termometroDiferencial.c: 233:             break;
+[e $U 121  ]
+"234
+[; ;termometroDiferencial.c: 234:         case 189:
+[e :U 139 ]
+"235
+[; ;termometroDiferencial.c: 235:             if (waiting) {
+[e $ ! != _waiting -> 0 `i 140  ]
+{
+"236
+[; ;termometroDiferencial.c: 236:                 clearIfFirst();
+[e ( _clearIfFirst ..  ]
+"237
+[; ;termometroDiferencial.c: 237:                 if (cont < 3) {
+[e $ ! < _cont -> 3 `i 141  ]
+{
+"238
+[; ;termometroDiferencial.c: 238:                     maxTempString[cont] = '6';
+[e = *U + &U _maxTempString * -> -> _cont `ui `ux -> -> # *U &U _maxTempString `ui `ux -> -> 54 `ui `uc ]
+"239
+[; ;termometroDiferencial.c: 239:                     putCharacter('6', cont);
+[e ( _putCharacter (2 , -> -> 54 `ui `uc _cont ]
+"240
+[; ;termometroDiferencial.c: 240:                     cont++;
+[e ++ _cont -> 1 `i ]
+"241
+[; ;termometroDiferencial.c: 241:                 }
+}
+[e :U 141 ]
+"242
+[; ;termometroDiferencial.c: 242:             }
+}
+[e :U 140 ]
+"243
+[; ;termometroDiferencial.c: 243:             break;
+[e $U 121  ]
+"244
+[; ;termometroDiferencial.c: 244:         case 125:
+[e :U 142 ]
+"246
+[; ;termometroDiferencial.c: 246:             break;
+[e $U 121  ]
+"247
+[; ;termometroDiferencial.c: 247:         case 235:
+[e :U 143 ]
+"248
+[; ;termometroDiferencial.c: 248:             if (waiting) {
+[e $ ! != _waiting -> 0 `i 144  ]
+{
+"249
+[; ;termometroDiferencial.c: 249:                 clearIfFirst();
+[e ( _clearIfFirst ..  ]
+"250
+[; ;termometroDiferencial.c: 250:                 if (cont < 3) {
+[e $ ! < _cont -> 3 `i 145  ]
+{
+"251
+[; ;termometroDiferencial.c: 251:                     maxTempString[cont] = '1';
+[e = *U + &U _maxTempString * -> -> _cont `ui `ux -> -> # *U &U _maxTempString `ui `ux -> -> 49 `ui `uc ]
+"252
+[; ;termometroDiferencial.c: 252:                     putCharacter('1', cont);
+[e ( _putCharacter (2 , -> -> 49 `ui `uc _cont ]
+"253
+[; ;termometroDiferencial.c: 253:                     cont++;
+[e ++ _cont -> 1 `i ]
+"254
+[; ;termometroDiferencial.c: 254:                 }
+}
+[e :U 145 ]
+"255
+[; ;termometroDiferencial.c: 255:             }
+}
+[e :U 144 ]
+"256
+[; ;termometroDiferencial.c: 256:             break;
+[e $U 121  ]
+"257
+[; ;termometroDiferencial.c: 257:         case 219:
+[e :U 146 ]
+"258
+[; ;termometroDiferencial.c: 258:             if (waiting) {
+[e $ ! != _waiting -> 0 `i 147  ]
+{
+"259
+[; ;termometroDiferencial.c: 259:                 clearIfFirst();
+[e ( _clearIfFirst ..  ]
+"260
+[; ;termometroDiferencial.c: 260:                 if (cont < 3) {
+[e $ ! < _cont -> 3 `i 148  ]
+{
+"261
+[; ;termometroDiferencial.c: 261:                     maxTempString[cont] = '2';
+[e = *U + &U _maxTempString * -> -> _cont `ui `ux -> -> # *U &U _maxTempString `ui `ux -> -> 50 `ui `uc ]
+"262
+[; ;termometroDiferencial.c: 262:                     putCharacter('2', cont);
+[e ( _putCharacter (2 , -> -> 50 `ui `uc _cont ]
+"263
+[; ;termometroDiferencial.c: 263:                     cont++;
+[e ++ _cont -> 1 `i ]
+"264
+[; ;termometroDiferencial.c: 264:                 }
+}
+[e :U 148 ]
+"265
+[; ;termometroDiferencial.c: 265:             }
+}
+[e :U 147 ]
+"266
+[; ;termometroDiferencial.c: 266:             break;
+[e $U 121  ]
+"267
+[; ;termometroDiferencial.c: 267:         case 187:
+[e :U 149 ]
+"268
+[; ;termometroDiferencial.c: 268:             if (waiting) {
+[e $ ! != _waiting -> 0 `i 150  ]
+{
+"269
+[; ;termometroDiferencial.c: 269:                 clearIfFirst();
+[e ( _clearIfFirst ..  ]
+"270
+[; ;termometroDiferencial.c: 270:                 if (cont < 3) {
+[e $ ! < _cont -> 3 `i 151  ]
+{
+"271
+[; ;termometroDiferencial.c: 271:                     maxTempString[cont] = '3';
+[e = *U + &U _maxTempString * -> -> _cont `ui `ux -> -> # *U &U _maxTempString `ui `ux -> -> 51 `ui `uc ]
+"272
+[; ;termometroDiferencial.c: 272:                     putCharacter('3', cont);
+[e ( _putCharacter (2 , -> -> 51 `ui `uc _cont ]
+"273
+[; ;termometroDiferencial.c: 273:                     cont++;
+[e ++ _cont -> 1 `i ]
+"274
+[; ;termometroDiferencial.c: 274:                 }
+}
+[e :U 151 ]
+"275
+[; ;termometroDiferencial.c: 275:             }
+}
+[e :U 150 ]
+"276
+[; ;termometroDiferencial.c: 276:             break;
+[e $U 121  ]
+"277
+[; ;termometroDiferencial.c: 277:         case 123:
+[e :U 152 ]
+"278
+[; ;termometroDiferencial.c: 278:             changeThermometerChannel(1);
+[e ( _changeThermometerChannel (1 -> 1 `i ]
+"279
+[; ;termometroDiferencial.c: 279:             break;
+[e $U 121  ]
+"280
+[; ;termometroDiferencial.c: 280:         case 231:
+[e :U 153 ]
+"282
+[; ;termometroDiferencial.c: 282:             break;
+[e $U 121  ]
+"283
+[; ;termometroDiferencial.c: 283:         case 215:
+[e :U 154 ]
+"284
+[; ;termometroDiferencial.c: 284:             if (waiting) {
+[e $ ! != _waiting -> 0 `i 155  ]
+{
+"285
+[; ;termometroDiferencial.c: 285:                 clearIfFirst();
+[e ( _clearIfFirst ..  ]
+"286
+[; ;termometroDiferencial.c: 286:                 if (cont < 3) {
+[e $ ! < _cont -> 3 `i 156  ]
+{
+"287
+[; ;termometroDiferencial.c: 287:                     maxTempString[cont] = '0';
+[e = *U + &U _maxTempString * -> -> _cont `ui `ux -> -> # *U &U _maxTempString `ui `ux -> -> 48 `ui `uc ]
+"288
+[; ;termometroDiferencial.c: 288:                     putCharacter('0', cont);
+[e ( _putCharacter (2 , -> -> 48 `ui `uc _cont ]
+"289
+[; ;termometroDiferencial.c: 289:                     cont++;
+[e ++ _cont -> 1 `i ]
+"290
+[; ;termometroDiferencial.c: 290:                 }
+}
+[e :U 156 ]
+"291
+[; ;termometroDiferencial.c: 291:             }
+}
+[e :U 155 ]
+"292
+[; ;termometroDiferencial.c: 292:             break;
+[e $U 121  ]
+"293
+[; ;termometroDiferencial.c: 293:         case 183:
+[e :U 157 ]
+"294
+[; ;termometroDiferencial.c: 294:             maxTemp = atoi(maxTempString);
+[e = _maxTemp ( _atoi (1 -> &U _maxTempString `*Cuc ]
+"295
+[; ;termometroDiferencial.c: 295:             waiting = 0;
+[e = _waiting -> 0 `i ]
+"296
+[; ;termometroDiferencial.c: 296:             break;
+[e $U 121  ]
+"297
+[; ;termometroDiferencial.c: 297:         case 119:
+[e :U 158 ]
+"298
+[; ;termometroDiferencial.c: 298:             changeThermometerChannel(2);
+[e ( _changeThermometerChannel (1 -> 2 `i ]
+"299
+[; ;termometroDiferencial.c: 299:             break;
+[e $U 121  ]
+"300
+[; ;termometroDiferencial.c: 300:         default:
+[e :U 159 ]
+"301
+[; ;termometroDiferencial.c: 301:             break;
+[e $U 121  ]
+"302
+[; ;termometroDiferencial.c: 302:     }
+}
+[e $U 121  ]
+[e :U 122 ]
+[e [\ -> _PORTB `i , $ -> 238 `i 123
+ , $ -> 222 `i 126
+ , $ -> 190 `i 129
+ , $ -> 126 `i 132
+ , $ -> 237 `i 133
+ , $ -> 221 `i 136
+ , $ -> 189 `i 139
+ , $ -> 125 `i 142
+ , $ -> 235 `i 143
+ , $ -> 219 `i 146
+ , $ -> 187 `i 149
+ , $ -> 123 `i 152
+ , $ -> 231 `i 153
+ , $ -> 215 `i 154
+ , $ -> 183 `i 157
+ , $ -> 119 `i 158
+ 159 ]
+[e :U 121 ]
+"303
+[; ;termometroDiferencial.c: 303: }
+[e :UE 120 ]
+}
+[v $root$_accion `(v ~T0 @X0 0 e ]
+"305
+[; ;termometroDiferencial.c: 305: void __attribute__((picinterrupt(("")))) accion(void) {
+[v _accion `(v ~T1 @X0 1 ef ]
+{
+[e :U _accion ]
+[f ]
+"307
+[; ;termometroDiferencial.c: 307:     if (INTCONbits.RBIF) {
+[e $ ! != -> . . _INTCONbits 0 0 `i -> 0 `i 161  ]
+{
+"309
+[; ;termometroDiferencial.c: 309:         tecla();
+[e ( _tecla ..  ]
+"310
+[; ;termometroDiferencial.c: 310:         _delay((unsigned long)((200)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"312
+[; ;termometroDiferencial.c: 312:         INTCONbits.RBIF = 0;
+[e = . . _INTCONbits 0 0 -> -> 0 `i `uc ]
+"313
+[; ;termometroDiferencial.c: 313:     }
+}
+[e :U 161 ]
+"316
+[; ;termometroDiferencial.c: 316: }
+[e :UE 160 ]
+}
+"318
+[; ;termometroDiferencial.c: 318: void configTempMode() {
+[v _configTempMode `(v ~T0 @X0 1 ef ]
+{
+[e :U _configTempMode ]
+[f ]
+"320
+[; ;termometroDiferencial.c: 320:     writeOnLCD("Ingrese temp MAXIMA");
+[e ( _writeOnLCD (1 :s 3C ]
+"321
+[; ;termometroDiferencial.c: 321:     writeOnLCD("Ingrese temp MAXIMA");
+[e ( _writeOnLCD (1 :s 4C ]
+"323
+[; ;termometroDiferencial.c: 323:     while (waiting == 1) {
+[e $U 163  ]
+[e :U 164 ]
+{
+"324
+[; ;termometroDiferencial.c: 324:         secuencia();
+[e ( _secuencia ..  ]
+"325
+[; ;termometroDiferencial.c: 325:     }
+}
+[e :U 163 ]
+"323
+[; ;termometroDiferencial.c: 323:     while (waiting == 1) {
+[e $ == _waiting -> 1 `i 164  ]
+[e :U 165 ]
+"327
+[; ;termometroDiferencial.c: 327:     if (maxTemp > 150) {
+[e $ ! > _maxTemp -> 150 `i 166  ]
+{
+"328
+[; ;termometroDiferencial.c: 328:         maxTemp = 150;
+[e = _maxTemp -> 150 `i ]
+"329
+[; ;termometroDiferencial.c: 329:     }
+}
+[e :U 166 ]
+"333
+[; ;termometroDiferencial.c: 333: }
+[e :UE 162 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"335
+[; ;termometroDiferencial.c: 335: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"336
+[; ;termometroDiferencial.c: 336:     conf();
+[e ( _conf ..  ]
+"337
+[; ;termometroDiferencial.c: 337:     confTeclado();
+[e ( _confTeclado ..  ]
+"339
+[; ;termometroDiferencial.c: 339:     configTempMode();
+[e ( _configTempMode ..  ]
+"341
+[; ;termometroDiferencial.c: 341:     int leerTemperatura = 1;
+[v _leerTemperatura `i ~T0 @X0 1 a ]
+[e = _leerTemperatura -> 1 `i ]
+"342
+[; ;termometroDiferencial.c: 342:     while (leerTemperatura) {
+[e $U 168  ]
+[e :U 169 ]
+{
+"343
+[; ;termometroDiferencial.c: 343:         writeOnLCD(getTemperature());
+[e ( _writeOnLCD (1 -> ( _getTemperature ..  `*uc ]
+"344
+[; ;termometroDiferencial.c: 344:         secuencia();
+[e ( _secuencia ..  ]
+"345
+[; ;termometroDiferencial.c: 345:     }
+}
+[e :U 168 ]
+"342
+[; ;termometroDiferencial.c: 342:     while (leerTemperatura) {
+[e $ != _leerTemperatura -> 0 `i 169  ]
+[e :U 170 ]
+"347
+[; ;termometroDiferencial.c: 347:     wait();
+[e ( _wait ..  ]
+"349
+[; ;termometroDiferencial.c: 349:     return;
+[e $UE 167  ]
+"350
+[; ;termometroDiferencial.c: 350: }
+[e :UE 167 ]
+}
+[p f _sprintf 8388736 ]
+[a 1C 37 100 0 ]
+[a 2C 39 67 0 ]
+[a 3C 73 110 103 114 101 115 101 32 116 101 109 112 32 77 65 88 73 77 65 0 ]
+[a 4C 73 110 103 114 101 115 101 32 116 101 109 112 32 77 65 88 73 77 65 0 ]
