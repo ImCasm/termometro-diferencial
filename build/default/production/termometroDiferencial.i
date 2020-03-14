@@ -1785,9 +1785,7 @@ extern char * ultoa(char * buf, unsigned long val, int base);
 
 extern char * ftoa(float f, int * status);
 # 5 "termometroDiferencial.c" 2
-
-
-
+# 17 "termometroDiferencial.c"
 unsigned int waiting = 1;
 unsigned int showDiferenceTemp = 0;
 unsigned int maxTemp = 150;
@@ -2054,6 +2052,14 @@ void keyboard() {
             break;
         case 215:
             addCharToMaxTemp('0');
+            break;
+        case 126:
+
+            onConfTempMode = 1;
+            waiting = 1;
+            clear = 1;
+            memset(maxTempString, 0, sizeof maxTempString);
+            cont = 0;
             break;
         case 125:
             showDiferenceTemp = 1;

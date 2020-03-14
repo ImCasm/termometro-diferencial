@@ -5,6 +5,15 @@
 #include <stdlib.h>
 
 
+/*
+ * MODO DE FUNCIONAMIENTO
+ * = -> INGRESA TEMPERATURA UMBRAL LUEGO DE DIGITAL EL NUMERO
+ * + -> LECTURA DEL SENSOR IZQUIERDO
+ * - -> LECTURA DEL SENSOR DERECHO
+ * X -> LECTURA DE LA DIFERENCIA DE TEMPERATURA ENTRE LOS SENSORES
+ * / -> ENTRAR AL MODO DE CONFIGURACION DEL UMBRAL
+ */
+
 unsigned int waiting = 1; //Bandera de espera para ingresar temp maxima
 unsigned int showDiferenceTemp = 0; // Bandera para saber si se debe mostrar la diferencia de temperaturas
 unsigned int maxTemp = 150; // Valor de la temperatura max
@@ -233,23 +242,23 @@ void addCharToMaxTemp(char character) {
  */
 void keyboard() {
     switch (PORTB) {
-        case 238: //7
+        case 238: // 7
             clearIfFirst();
             addCharToMaxTemp('7');
             break;
-        case 222: //8
+        case 222: // 8
             clearIfFirst();
             addCharToMaxTemp('8');
             break;
-        case 190://9
+        case 190:// 9
             clearIfFirst();
             addCharToMaxTemp('9');
             break;
-        case 237://4
+        case 237:// 4
             clearIfFirst();
             addCharToMaxTemp('4');
             break;
-        case 221://5
+        case 221:// 5
             clearIfFirst();
             addCharToMaxTemp('5');
             break;
@@ -269,8 +278,16 @@ void keyboard() {
             clearIfFirst();
             addCharToMaxTemp('3');
             break;
-        case 215: //0clearIfFirst();
+        case 215: // 0
             addCharToMaxTemp('0');
+            break;
+        case 126: // / para entrar otra vez al modo conf
+            //reinicio las variables
+            onConfTempMode = 1;
+            waiting = 1;
+            clear = 1;
+            memset(maxTempString, 0, sizeof maxTempString); //borro datos de temp max
+            cont = 0; //devuelvo el contador del puntero a 0
             break;
         case 125: //x
             showDiferenceTemp = 1;
