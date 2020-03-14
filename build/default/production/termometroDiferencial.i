@@ -1788,14 +1788,14 @@ extern char * ftoa(float f, int * status);
 
 
 
-int waiting = 1;
+unsigned int waiting = 1;
 unsigned int showDiferenceTemp = 0;
 unsigned int maxTemp = 150;
 unsigned int onConfTempMode = 1;
-char maxTempString[3];
+char maxTempString[5];
 unsigned int cont = 0;
 unsigned int clear = 1;
-
+unsigned int readTem = 0;
 
 
 
@@ -1838,12 +1838,10 @@ void sendNibble(int n, int rs) {
 void turnOnLCD() {
     int turnOn = 14;
     int d1 = turnOn >> 2;
-
     PORTC = d1;
     RC0 = 0;
     flank();
     int d2 = turnOn << 2;
-
     PORTC = d2;
     RC0 = 0;
     flank();
@@ -1868,7 +1866,7 @@ void putCharacter(char character, int position) {
 
 
 void writeWord(char word[]) {
-    for (int i = 0; i < strlen(word); i++) {
+    for (unsigned int i = 0; i < strlen(word); i++) {
         putCharacter(word[i], i);
     }
 }
@@ -1945,7 +1943,7 @@ int getVoltaje() {
 
 
 int getTemperatureInt() {
-    int temp;
+    unsigned int temp;
     temp = getVoltaje()*0.4887585532746823;
 
     return temp;
@@ -1957,7 +1955,7 @@ int getTemperatureInt() {
 
 
 char getTemperatureString() {
-    int temp;
+    unsigned int temp;
     temp = getVoltaje()*0.4887585532746823;
     char str[12];
     sprintf(str, "%d", temp);
@@ -2001,6 +1999,22 @@ void changeThermometerChannel(int channel) {
 
 
 
+
+void addCharToMaxTemp(char character) {
+
+    if (waiting) {
+        clearIfFirst();
+        if (cont < 3) {
+            maxTempString[cont] = character;
+            putCharacter(character, cont);
+            cont++;
+        }
+    }
+}
+
+
+
+
 void keyboard() {
 
     switch (PORTB) {
@@ -2015,115 +2029,49 @@ void keyboard() {
             }
             break;
         case 222:
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '8';
-                    putCharacter('8', cont);
-                    cont++;
-                }
-            }
+            addCharToMaxTemp('8');
             break;
         case 190:
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '9';
-                    putCharacter('9', cont);
-                    cont++;
-                }
-            }
-            break;
-        case 126:
-
+            addCharToMaxTemp('9');
             break;
         case 237:
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '4';
-                    putCharacter('4', cont);
-                    cont++;
-                }
-            }
+            addCharToMaxTemp('4');
             break;
         case 221:
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '5';
-                    putCharacter('5', cont);
-                    cont++;
-                }
-            }
+            addCharToMaxTemp('5');
             break;
         case 189:
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '6';
-                    putCharacter('6', cont);
-                    cont++;
-                }
-            }
+            addCharToMaxTemp('6');
+            break;
+        case 235:
+            addCharToMaxTemp('1');
+            break;
+        case 219:
+            addCharToMaxTemp('2');
+            break;
+        case 187:
+            addCharToMaxTemp('3');
+            break;
+        case 215:
+            addCharToMaxTemp('0');
             break;
         case 125:
             showDiferenceTemp = 1;
-            break;
-        case 235:
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '1';
-                    putCharacter('1', cont);
-                    cont++;
-                }
-            }
-            break;
-        case 219:
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '2';
-                    putCharacter('2', cont);
-                    cont++;
-                }
-            }
-            break;
-        case 187:
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '3';
-                    putCharacter('3', cont);
-                    cont++;
-                }
-            }
+            readTem = 0;
             break;
         case 123:
             showDiferenceTemp = 0;
+            readTem = 1;
             changeThermometerChannel(1);
             break;
-        case 231:
-
-            break;
-        case 215:
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '0';
-                    putCharacter('0', cont);
-                    cont++;
-                }
-            }
+        case 119:
+            showDiferenceTemp = 0;
+            readTem = 1;
+            changeThermometerChannel(2);
             break;
         case 183:
             maxTemp = atoi(maxTempString);
             waiting = 0;
-            break;
-        case 119:
-            showDiferenceTemp = 0;
-            changeThermometerChannel(2);
             break;
     }
 }
@@ -2141,7 +2089,7 @@ void __attribute__((picinterrupt(("")))) globalInterruption(void) {
         INTCONbits.RBIF = 0;
     }
 
-
+    GIE = 1;
 }
 
 
@@ -2181,29 +2129,40 @@ void turnOnSerialAlarm(char message[]) {
     }
 }
 
+void send() {
+    char msg[8] = "PELIGRO ";
+    turnOnSerialAlarm(msg);
+}
+
 
 
 
 void showDifferenceTemp() {
 
     char tempDifference[5];
-
+    unsigned int tempDif;
     changeThermometerChannel(1);
-    _delay((unsigned long)((200)*(4000000/4000.0)));
-    int temp1 = getTemperatureInt();
+    _delay((unsigned long)((50)*(4000000/4000.0)));
+    unsigned int temp1 = getTemperatureInt();
 
     changeThermometerChannel(2);
-    _delay((unsigned long)((200)*(4000000/4000.0)));
-    int temp2 = getTemperatureInt();
+    _delay((unsigned long)((50)*(4000000/4000.0)));
+    unsigned int temp2 = getTemperatureInt();
 
     if (temp1 > temp2) {
-        sprintf(tempDifference, "%d", (temp1 - temp2));
+        tempDif = temp1 - temp2;
+        sprintf(tempDifference, "%d'C", (tempDif));
     } else {
-        sprintf(tempDifference, "%d", (temp2 - temp1));
+        tempDif = temp2 - temp1;
+        sprintf(tempDifference, "%d'C", (tempDif));
     }
 
-    clearLCD();
+    if (isItHot(tempDif)) {
+        send();
+    }
+
     writeOnLCD(tempDifference);
+    ZeroSequenceKeyboard();
 }
 
 
@@ -2214,9 +2173,7 @@ void showTemp() {
     int temp = getTemperatureInt();
 
     if (isItHot(temp)) {
-
-        char msg[12] = "PELIGRO ";
-        turnOnSerialAlarm(msg);
+        send();
     }
     writeOnLCD(getTemperatureString());
     ZeroSequenceKeyboard();
@@ -2235,10 +2192,13 @@ void main(void) {
         if (onConfTempMode) {
             configTempMode();
             onConfTempMode = 0;
+            readTem = 1;
+        } else if (readTem) {
+            _delay((unsigned long)((150)*(4000000/4000.0)));
+            clearLCD();
+            showTemp();
         } else if (showDiferenceTemp) {
             showDifferenceTemp();
-        } else {
-            showTemp();
         }
     }
     wait();

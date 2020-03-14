@@ -5,14 +5,14 @@
 #include <stdlib.h>
 
 
-int waiting = 1; //Bandera de espera para ingresar temp maxima
+unsigned int waiting = 1; //Bandera de espera para ingresar temp maxima
 unsigned int showDiferenceTemp = 0; // Bandera para saber si se debe mostrar la diferencia de temperaturas
 unsigned int maxTemp = 150; // Valor de la temperatura max
 unsigned int onConfTempMode = 1; //bandera de modo configuracion
-char maxTempString[3]; // Valor de la temperatura max en string
+char maxTempString[5]; // Valor de la temperatura max en string
 unsigned int cont = 0; //Contador del puntero del LCD
 unsigned int clear = 1; //Bandera para saber si se puede limpiar el mensaje de inicio -> (Ingrese temp MAX)
-
+unsigned int readTem = 0; //Bandera de lectura del termometro
 
 /**
  * No permite que se acabe el programa
@@ -38,7 +38,7 @@ void flank() {
 void sendNibble(int n, int rs) {
     // 1. Como solo se necesita leer la mitad del puerto B (RB2,RB3,RB4,RB5) se hace shift right de los primeros 2 digitos
     // para ignorar los ultimos 2 bits
-    int d1 = n >> 2; 
+    int d1 = n >> 2;
     PORTC = d1;
     RC0 = rs;
     flank();
@@ -55,12 +55,10 @@ void sendNibble(int n, int rs) {
 void turnOnLCD() {
     int turnOn = 14;
     int d1 = turnOn >> 2;
-    //    d1 = d1 & 60;
     PORTC = d1;
     RC0 = 0;
     flank();
     int d2 = turnOn << 2;
-    //    d2 = d2 & 60;
     PORTC = d2;
     RC0 = 0;
     flank();
@@ -85,7 +83,7 @@ void putCharacter(char character, int position) {
  * @param word palabra a escribir
  */
 void writeWord(char word[]) {
-    for (int i = 0; i < strlen(word); i++) {
+    for (unsigned int i = 0; i < strlen(word); i++) {
         putCharacter(word[i], i);
     }
 }
@@ -162,7 +160,7 @@ int getVoltaje() {
  * @return termperatura del termometro elegido en formato digito entero
  */
 int getTemperatureInt() {
-    int temp;
+    unsigned int temp;
     temp = getVoltaje()*0.4887585532746823;
 
     return temp; //devuelve entero (para comparaciones)
@@ -174,7 +172,7 @@ int getTemperatureInt() {
  * @return termperatura del termometro elegido en formato cadena de texto
  */
 char getTemperatureString() {
-    int temp;
+    unsigned int temp;
     temp = getVoltaje()*0.4887585532746823;
     char str[12];
     sprintf(str, "%d", temp);
@@ -216,6 +214,22 @@ void changeThermometerChannel(int channel) {
 }
 
 /**
+ * Agrega un caracter a la temperatura maxima y al LCD
+ * @param character caracter a agregar
+ */
+void addCharToMaxTemp(char character) {
+
+    if (waiting) { //si esta en espera (modo conf)
+        clearIfFirst(); // si es la primera tecla que oprime borra el mensaje que hay en LCD
+        if (cont < 3) { //si no se han apretado mas de 3 digitos
+            maxTempString[cont] = character; //concatena a la temp maxima
+            putCharacter(character, cont); //pone el caracter en el LCD
+            cont++; //incrementa posicion del puntero en LCD
+        }
+    }
+}
+
+/**
  * Funcion que escucha los eventos del teclado.
  */
 void keyboard() {
@@ -232,115 +246,49 @@ void keyboard() {
             }
             break;
         case 222: //8
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '8';
-                    putCharacter('8', cont);
-                    cont++;
-                }
-            }
+            addCharToMaxTemp('8');
             break;
         case 190://9
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '9';
-                    putCharacter('9', cont);
-                    cont++;
-                }
-            }
-            break;
-        case 126:
-
+            addCharToMaxTemp('9');
             break;
         case 237://4
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '4';
-                    putCharacter('4', cont);
-                    cont++;
-                }
-            }
+            addCharToMaxTemp('4');
             break;
         case 221://5
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '5';
-                    putCharacter('5', cont);
-                    cont++;
-                }
-            }
+            addCharToMaxTemp('5');
             break;
         case 189: // 6
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '6';
-                    putCharacter('6', cont);
-                    cont++;
-                }
-            }
-            break;
-        case 125:
-            showDiferenceTemp = 1;
+            addCharToMaxTemp('6');
             break;
         case 235: // 1
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '1';
-                    putCharacter('1', cont);
-                    cont++;
-                }
-            }
+            addCharToMaxTemp('1');
             break;
         case 219: // 2
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '2';
-                    putCharacter('2', cont);
-                    cont++;
-                }
-            }
+            addCharToMaxTemp('2');
             break;
         case 187: // 3
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '3';
-                    putCharacter('3', cont);
-                    cont++;
-                }
-            }
+            addCharToMaxTemp('3');
+            break;
+        case 215: //0
+            addCharToMaxTemp('0');
+            break;
+        case 125: //x
+            showDiferenceTemp = 1;
+            readTem = 0;
             break;
         case 123: // -
             showDiferenceTemp = 0;
+            readTem = 1;
             changeThermometerChannel(1);
             break;
-        case 231:
-
-            break;
-        case 215: //0
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '0';
-                    putCharacter('0', cont);
-                    cont++;
-                }
-            }
+        case 119:// +
+            showDiferenceTemp = 0;
+            readTem = 1;
+            changeThermometerChannel(2);
             break;
         case 183: // =
             maxTemp = atoi(maxTempString);
             waiting = 0;
-            break;
-        case 119:// +
-            showDiferenceTemp = 0;
-            changeThermometerChannel(2);
             break;
     }
 }
@@ -358,7 +306,7 @@ void __interrupt() globalInterruption(void) {
         INTCONbits.RBIF = 0;
     }
 
-    //GIE = 1;
+    GIE = 1;
 }
 
 /**
@@ -398,42 +346,51 @@ void turnOnSerialAlarm(char message[]) {
     }
 }
 
+void send() {
+    char msg[8] = "PELIGRO "; //Mensaje alarma
+    turnOnSerialAlarm(msg); //Envio por el puerto serial
+}
+
 /**
  * Muestra la diferencia de temperatura de los termometros
  */
 void showDifferenceTemp() {
 
     char tempDifference[5];
-
+    unsigned int tempDif;
     changeThermometerChannel(1); //Cambio de canal al 0
-    __delay_ms(200);
-    int temp1 = getTemperatureInt(); //Leo la temperatura del canal 0
-    
+    __delay_ms(50);
+    unsigned int temp1 = getTemperatureInt(); //Leo la temperatura del canal 0
+
     changeThermometerChannel(2); // Cambio de canal al 1
-    __delay_ms(200);
-    int temp2 = getTemperatureInt(); // Leo la temperatura del canal 1
+    __delay_ms(50);
+    unsigned int temp2 = getTemperatureInt(); // Leo la temperatura del canal 1
 
     if (temp1 > temp2) { // Saco la diferencia de las temperaturas
-        sprintf(tempDifference, "%d", (temp1 - temp2));
+        tempDif = temp1 - temp2;
+        sprintf(tempDifference, "%d'C", (tempDif));
     } else {
-        sprintf(tempDifference, "%d", (temp2 - temp1));
+        tempDif = temp2 - temp1;
+        sprintf(tempDifference, "%d'C", (tempDif));
     }
 
-    clearLCD(); //Limpio el LCD
+    if (isItHot(tempDif)) {
+        send();
+    }
+
     writeOnLCD(tempDifference); //Escribo diferencia en LCD
+    ZeroSequenceKeyboard();
 }
 
 /**
  * Muestra la temperatura y si es mayor que el umbral envia mensaje de alarma por el puerto serial
  */
 void showTemp() {
-    
+
     int temp = getTemperatureInt(); //Lee temperatura
 
     if (isItHot(temp)) { //Si esta caliente (mayor al umbral) envia alarma
-
-        char msg[12] = "PELIGRO "; //Mensaje alarma
-        turnOnSerialAlarm(msg); //Envio por el puerto serial
+        send();
     }
     writeOnLCD(getTemperatureString()); //Se escribe en LCD la temperatura que haya
     ZeroSequenceKeyboard(); //Sigue la secuencia de ceros
@@ -452,10 +409,13 @@ void main(void) {
         if (onConfTempMode) {
             configTempMode(); //  MODO DE CONFIGURACION TEMPERATURA UMBRAL  //
             onConfTempMode = 0;
+            readTem = 1;
+        } else if (readTem) {
+            __delay_ms(150);
+            clearLCD();
+            showTemp(); //  MUESTRA TEMPERATURAS  //
         } else if (showDiferenceTemp) {
             showDifferenceTemp(); //  DIFERENCIA DE TEMPERATURA  //
-        } else {
-            showTemp(); //  MUESTRA TEMPERATURAS  //
         }
     }
     wait();

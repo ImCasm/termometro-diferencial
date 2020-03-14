@@ -11,83 +11,85 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Cristian\AppData\Local\Temp\s14c.o
+$dist/default/production\ProyectoTermometroDiferencial.X.production.o
+cinit CODE 0 11 11 29 2
+text1 CODE 0 2 2 2 2
+text2 CODE 0 BCF BCF 33 2
+text3 CODE 0 DA0 DA0 6C 2
+text4 CODE 0 B11 B11 2D 2
+text5 CODE 0 E9E E9E A6 2
+text6 CODE 0 57D 57D 12F 2
+text7 CODE 0 C02 C02 3C 2
+text8 CODE 0 CBC CBC 46 2
+text9 CODE 0 9CE 9CE 1C 2
+text10 CODE 0 AE5 AE5 2C 2
+text11 CODE 0 9EA 9EA 1D 2
+text12 CODE 0 D02 D02 4D 2
+text13 CODE 0 946 946 10 2
+text14 CODE 0 F44 F44 BC 2
+text15 CODE 0 E0C E0C 92 2
+text16 CODE 0 3A 3A 543 2
+text17 CODE 0 ABC ABC 29 2
+text18 CODE 0 8F9 8F9 D 2
+text19 CODE 0 9B6 9B6 18 2
+text20 CODE 0 B3E B3E 2E 2
+text21 CODE 0 936 936 10 2
+text22 CODE 0 B9C B9C 33 2
+text23 CODE 0 A29 A29 22 2
+text24 CODE 0 A70 A70 25 2
+text25 CODE 0 9A1 9A1 15 2
+text26 CODE 0 8BB 8BB B 2
+text27 CODE 0 956 956 11 2
+text28 CODE 0 8B1 8B1 A 2
+text29 CODE 0 8EC 8EC D 2
+text30 CODE 0 C7D C7D 3F 2
+text31 CODE 0 926 926 10 2
+text32 CODE 0 A07 A07 22 2
+text33 CODE 0 6AC 6AC D4 2
+text34 CODE 0 8DF 8DF D 2
+text35 CODE 0 780 780 7F 2
+text36 CODE 0 978 978 14 2
+text37 CODE 0 A95 A95 27 2
+text38 CODE 0 B6C B6C 30 2
+text39 CODE 0 A4B A4B 25 2
+text40 CODE 0 98C 98C 15 2
+text41 CODE 0 916 916 10 2
+text42 CODE 0 8D2 8D2 D 2
+text43 CODE 0 C3E C3E 3F 2
+text44 CODE 0 906 906 10 2
+maintext CODE 0 D4F D4F 51 2
+cstackBANK0 BANK0 1 20 20 31 1
+cstackBANK1 BANK1 1 A0 A0 40 1
+inittext CODE 0 967 967 11 2
+intentry CODE 0 4 4 B 2
+bssBANK0 BANK0 1 5D 5D 7 1
+bssBANK1 BANK1 1 E0 E0 4 1
+idataBANK0 CODE 0 8C6 8C6 C 2
+idataBANK1 CODE 0 8AD 8AD 4 2
+strings STRING 0 800 800 36 2
+dataBANK0 BANK0 1 51 51 C 1
+dataBANK1 BANK1 1 E4 E4 4 1
+$C:\Users\Cristian\AppData\Local\Temp\sps.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 F F 2 2
-$dist/default/production\ProyectoTermometroDiferencial.X.production.o
-cinit CODE 0 11 11 25 2
-text1 CODE 0 2 2 2 2
-text2 CODE 0 C8D C8D 4B 2
-text3 CODE 0 A56 A56 2C 2
-text4 CODE 0 95C 95C 1D 2
-text5 CODE 0 CD8 CD8 62 2
-text6 CODE 0 A82 A82 2D 2
-text7 CODE 0 D3A D3A 94 2
-text8 CODE 0 F26 F26 DA 2
-text9 CODE 0 B48 B48 3C 2
-text10 CODE 0 C47 C47 46 2
-text11 CODE 0 C02 C02 45 2
-text12 CODE 0 8C4 8C4 10 2
-text13 CODE 0 E6A E6A BC 2
-text14 CODE 0 DCE DCE 9C 2
-text15 CODE 0 36 36 54D 2
-text16 CODE 0 A2D A2D 29 2
-text17 CODE 0 7F2 7F2 D 2
-text18 CODE 0 877 877 D 2
-text19 CODE 0 944 944 18 2
-text20 CODE 0 AAF AAF 2E 2
-text21 CODE 0 8B4 8B4 10 2
-text22 CODE 0 ADD ADD 33 2
-text23 CODE 0 99A 99A 22 2
-text24 CODE 0 9E1 9E1 25 2
-text25 CODE 0 92F 92F 15 2
-text26 CODE 0 BC3 BC3 3F 2
-text27 CODE 0 8A4 8A4 10 2
-text28 CODE 0 852 852 B 2
-text29 CODE 0 8E4 8E4 11 2
-text30 CODE 0 848 848 A 2
-text31 CODE 0 979 979 21 2
-text32 CODE 0 583 583 1F0 2
-text33 CODE 0 9BC 9BC 25 2
-text34 CODE 0 91A 91A 15 2
-text35 CODE 0 86A 86A D 2
-text36 CODE 0 894 894 10 2
-text37 CODE 0 85D 85D D 2
-text38 CODE 0 B84 B84 3F 2
-text39 CODE 0 884 884 10 2
-text40 CODE 0 773 773 7F 2
-text41 CODE 0 906 906 14 2
-text42 CODE 0 A06 A06 27 2
-maintext CODE 0 B10 B10 38 2
-cstackBANK0 BANK0 1 20 20 3D 1
-cstackBANK1 BANK1 1 A0 A0 36 1
-inittext CODE 0 8F5 8F5 11 2
-intentry CODE 0 4 4 B 2
-bssBANK0 BANK0 1 5D 5D 5 1
-bssBANK1 BANK1 1 E6 E6 2 1
-idataBANK0 CODE 0 844 844 4 2
-idataBANK1 CODE 0 8D4 8D4 10 2
-strings STRING 0 800 800 34 2
-dataBANK0 BANK0 1 62 62 4 1
-dataBANK1 BANK1 1 D6 D6 10 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 66-7D 1
+RAM 64-7D 1
 RAM E8-FD 1
-BANK0 66-7D 1
+BANK0 64-7D 1
 BANK1 E8-FD 1
 CONST 7FF-7FF 2
-CONST 834-843 2
+CONST 836-8AC 2
 ENTRY 7FF-7FF 2
-ENTRY 834-843 2
+ENTRY 836-8AC 2
 IDLOC 2000-2003 2
-STACK 66-7D 1
+STACK 64-7D 1
 CODE 7FF-7FF 2
-CODE 834-843 2
+CODE 836-8AC 2
 SFR0 0-1F 1
 SFR1 80-9F 1
 SFR2 100-17D 1
@@ -95,9 +97,9 @@ SFR3 180-1FD 1
 CONFIG 2007-2007 2
 EEDATA 2100-217F 2
 STRCODE 7FF-7FF 2
-STRCODE 834-843 2
+STRCODE 836-8AC 2
 STRING 7FF-7FF 2
-STRING 834-843 2
+STRING 836-8AC 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -112,572 +114,574 @@ STRING 834-843 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\ProyectoTermometroDiferencial.X.production.o
-11 cinit CODE >578:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-11 cinit CODE >581:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-11 cinit CODE >663:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-12 cinit CODE >664:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-13 cinit CODE >665:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-14 cinit CODE >666:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-15 cinit CODE >667:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-16 cinit CODE >668:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-17 cinit CODE >669:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-18 cinit CODE >670:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-19 cinit CODE >671:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-1A cinit CODE >672:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-1D cinit CODE >676:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-1E cinit CODE >677:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-1F cinit CODE >678:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-20 cinit CODE >679:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-21 cinit CODE >680:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-22 cinit CODE >681:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-23 cinit CODE >682:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-24 cinit CODE >683:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-25 cinit CODE >684:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-28 cinit CODE >688:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-29 cinit CODE >689:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-2A cinit CODE >690:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-2B cinit CODE >691:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-2C cinit CODE >694:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-2D cinit CODE >695:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-2E cinit CODE >696:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-2F cinit CODE >697:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-30 cinit CODE >698:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-31 cinit CODE >699:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-32 cinit CODE >700:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-33 cinit CODE >706:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-33 cinit CODE >708:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-34 cinit CODE >709:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-4 intentry CODE >351:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-A06 text42 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-A06 text42 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-A0A text42 CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-A0E text42 CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-A14 text42 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-A1B text42 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-A22 text42 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-A28 text42 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-A2C text42 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-906 text41 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\isdigit.c
-909 text41 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\isdigit.c
-919 text41 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\isdigit.c
-773 text40 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-776 text40 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-777 text40 CODE >11:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-77B text40 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-78C text40 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-78E text40 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-78F text40 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-797 text40 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-79B text40 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-79F text40 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-7A8 text40 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-7AD text40 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-7D0 text40 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-7DA text40 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-7E1 text40 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-7ED text40 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-7F1 text40 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
-884 text39 CODE >27:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-884 text39 CODE >28:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-887 text39 CODE >29:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-890 text39 CODE >30:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-893 text39 CODE >31:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B84 text38 CODE >38:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B84 text38 CODE >41:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B94 text38 CODE >42:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B96 text38 CODE >43:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BA0 text38 CODE >44:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BA3 text38 CODE >46:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BB3 text38 CODE >47:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BB5 text38 CODE >48:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BBF text38 CODE >49:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BC2 text38 CODE >50:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-85D text37 CODE >104:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-85D text37 CODE >105:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-869 text37 CODE >106:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-894 text36 CODE >199:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-894 text36 CODE >200:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-89C text36 CODE >201:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-89F text36 CODE >202:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8A3 text36 CODE >204:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-86A text35 CODE >210:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-86A text35 CODE >211:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-873 text35 CODE >212:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-874 text35 CODE >213:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-875 text35 CODE >214:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-876 text35 CODE >216:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-91A text34 CODE >55:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-91A text34 CODE >56:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-91A text34 CODE >57:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-920 text34 CODE >59:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-922 text34 CODE >60:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-923 text34 CODE >61:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-926 text34 CODE >62:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-926 text34 CODE >64:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-92A text34 CODE >65:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-92B text34 CODE >66:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-92E text34 CODE >67:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-9BC text33 CODE >74:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-9BF text33 CODE >76:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-9CD text33 CODE >78:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-9DD text33 CODE >80:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-9E0 text33 CODE >81:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-583 text32 CODE >221:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-583 text32 CODE >223:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-584 text32 CODE >225:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-58A text32 CODE >226:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-58D text32 CODE >227:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-598 text32 CODE >228:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5A0 text32 CODE >229:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5A8 text32 CODE >230:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5B1 text32 CODE >235:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5B7 text32 CODE >236:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5BA text32 CODE >237:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5C5 text32 CODE >238:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5CD text32 CODE >239:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5D6 text32 CODE >245:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5DC text32 CODE >246:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5DF text32 CODE >247:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5EA text32 CODE >248:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5F2 text32 CODE >249:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-5FB text32 CODE >258:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-601 text32 CODE >259:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-604 text32 CODE >260:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-60F text32 CODE >261:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-617 text32 CODE >262:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-620 text32 CODE >268:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-626 text32 CODE >269:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-629 text32 CODE >270:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-634 text32 CODE >271:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-63C text32 CODE >272:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-645 text32 CODE >278:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-64B text32 CODE >279:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-64E text32 CODE >280:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-659 text32 CODE >281:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-661 text32 CODE >282:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-66A text32 CODE >288:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-670 text32 CODE >289:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-671 text32 CODE >291:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-677 text32 CODE >292:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-67A text32 CODE >293:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-685 text32 CODE >294:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-68D text32 CODE >295:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-696 text32 CODE >301:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-69C text32 CODE >302:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-69F text32 CODE >303:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6AA text32 CODE >304:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6B2 text32 CODE >305:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6BB text32 CODE >311:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6C1 text32 CODE >312:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6C4 text32 CODE >313:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6CF text32 CODE >314:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6D7 text32 CODE >315:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6E0 text32 CODE >321:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6E4 text32 CODE >322:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6ED text32 CODE >323:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6EE text32 CODE >328:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6F4 text32 CODE >329:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-6F7 text32 CODE >330:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-702 text32 CODE >331:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-70A text32 CODE >332:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-713 text32 CODE >338:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-723 text32 CODE >339:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-727 text32 CODE >340:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-728 text32 CODE >342:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-72C text32 CODE >343:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-735 text32 CODE >344:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-736 text32 CODE >345:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-772 text32 CODE >346:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-979 text31 CODE >351:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-979 text31 CODE >353:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-97D text31 CODE >355:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-980 text31 CODE >356:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-98E text31 CODE >358:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-98F text31 CODE >362:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-848 text30 CODE >123:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-848 text30 CODE >124:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-84C text30 CODE >125:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-84E text30 CODE >126:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-84F text30 CODE >127:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-850 text30 CODE >128:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-851 text30 CODE >129:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8E4 text29 CODE >134:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8E4 text29 CODE >135:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8E7 text29 CODE >136:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8EA text29 CODE >137:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8EB text29 CODE >138:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8EE text29 CODE >139:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8EF text29 CODE >140:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8F0 text29 CODE >142:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8F1 text29 CODE >143:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8F2 text29 CODE >145:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8F4 text29 CODE >146:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-852 text28 CODE >189:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-852 text28 CODE >190:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-856 text28 CODE >191:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-858 text28 CODE >192:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-85A text28 CODE >193:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-85C text28 CODE >194:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8A4 text27 CODE >27:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8A4 text27 CODE >28:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8A7 text27 CODE >29:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8B0 text27 CODE >30:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8B3 text27 CODE >31:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BC3 text26 CODE >38:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BC3 text26 CODE >41:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BD3 text26 CODE >42:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BD5 text26 CODE >43:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BDF text26 CODE >44:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BE2 text26 CODE >46:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BF2 text26 CODE >47:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BF4 text26 CODE >48:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-BFE text26 CODE >49:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-C01 text26 CODE >50:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-92F text25 CODE >55:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-92F text25 CODE >56:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-92F text25 CODE >57:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-935 text25 CODE >59:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-937 text25 CODE >60:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-938 text25 CODE >61:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-93B text25 CODE >62:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-93B text25 CODE >64:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-93F text25 CODE >65:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-940 text25 CODE >66:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-943 text25 CODE >67:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-9E1 text24 CODE >74:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-9E4 text24 CODE >76:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-9F2 text24 CODE >78:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-A02 text24 CODE >80:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-A05 text24 CODE >81:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-99A text23 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
-99A text23 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
-9A0 text23 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
-9A1 text23 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
-9A7 text23 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
-9B3 text23 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
-9BB text23 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
-ADD text22 CODE >87:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-ADD text22 CODE >88:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-AE2 text22 CODE >89:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-AF4 text22 CODE >90:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B0F text22 CODE >91:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8B4 text21 CODE >97:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8B4 text21 CODE >98:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8C3 text21 CODE >99:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-AAF text20 CODE >367:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-AAF text20 CODE >369:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-AB8 text20 CODE >370:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-AC1 text20 CODE >372:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-AC2 text20 CODE >373:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-AC5 text20 CODE >372:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-ACD text20 CODE >376:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-AD8 text20 CODE >377:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-ADC text20 CODE >379:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-944 text19 CODE >111:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-944 text19 CODE >112:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-948 text19 CODE >113:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-94A text19 CODE >114:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-94C text19 CODE >115:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-950 text19 CODE >116:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-951 text19 CODE >117:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-95B text19 CODE >118:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-877 text18 CODE >210:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-877 text18 CODE >211:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-880 text18 CODE >212:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-881 text18 CODE >213:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-882 text18 CODE >214:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-883 text18 CODE >216:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-7F2 text17 CODE >104:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-7F2 text17 CODE >105:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-7FE text17 CODE >106:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-A2D text16 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
-A30 text16 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
-A32 text16 CODE >6:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
-A39 text16 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
-A3D text16 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
-A43 text16 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
-A43 text16 CODE >54:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
-A4A text16 CODE >55:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
-A4C text16 CODE >56:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
-A51 text16 CODE >59:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
-A55 text16 CODE >60:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
-36 text15 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-36 text15 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-3F text15 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-49 text15 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-4F text15 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-52 text15 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-59 text15 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-5E text15 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-68 text15 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-6A text15 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-6B text15 CODE >36:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-75 text15 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-7C text15 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-86 text15 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-8C text15 CODE >42:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-8F text15 CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-96 text15 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-9B text15 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-A5 text15 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-A7 text15 CODE >54:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-A8 text15 CODE >57:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-B2 text15 CODE >65:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-BE text15 CODE >66:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-C9 text15 CODE >119:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-DF text15 CODE >120:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-FC text15 CODE >121:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-119 text15 CODE >122:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-12F text15 CODE >123:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-15F text15 CODE >124:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-18F text15 CODE >125:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-1A5 text15 CODE >126:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-1D5 text15 CODE >127:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-205 text15 CODE >128:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-214 text15 CODE >129:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-228 text15 CODE >130:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-25D text15 CODE >131:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-273 text15 CODE >132:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-2A8 text15 CODE >133:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-2B7 text15 CODE >134:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-2CB text15 CODE >135:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-300 text15 CODE >136:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-316 text15 CODE >137:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-34B text15 CODE >138:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-361 text15 CODE >139:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-396 text15 CODE >140:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-3AC text15 CODE >141:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-3EA text15 CODE >145:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-432 text15 CODE >146:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-441 text15 CODE >149:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-458 text15 CODE >152:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-459 text15 CODE >153:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-468 text15 CODE >154:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-46E text15 CODE >155:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-46F text15 CODE >157:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-47E text15 CODE >158:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-486 text15 CODE >152:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-48A text15 CODE >163:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-48B text15 CODE >164:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-48F text15 CODE >165:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-4B1 text15 CODE >166:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-4B5 text15 CODE >167:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-4B6 text15 CODE >168:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-4B6 text15 CODE >169:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-4BD text15 CODE >174:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-4C2 text15 CODE >175:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-4D0 text15 CODE >176:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-4D4 text15 CODE >177:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-509 text15 CODE >178:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-50F text15 CODE >183:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-51C text15 CODE >184:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-526 text15 CODE >185:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-527 text15 CODE >187:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-536 text15 CODE >188:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-540 text15 CODE >190:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-541 text15 CODE >191:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-542 text15 CODE >194:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-54C text15 CODE >195:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-554 text15 CODE >196:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-558 text15 CODE >197:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-559 text15 CODE >199:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-564 text15 CODE >200:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-564 text15 CODE >201:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-56C text15 CODE >203:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-582 text15 CODE >205:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
-DCE text14 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-DCE text14 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-DDF text14 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-DE8 text14 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E0D text14 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E0E text14 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E16 text14 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E18 text14 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E1C text14 CODE >54:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E24 text14 CODE >57:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E2D text14 CODE >58:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E3A text14 CODE >60:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E41 text14 CODE >63:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E50 text14 CODE >64:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E54 text14 CODE >62:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E54 text14 CODE >65:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E59 text14 CODE >67:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E5E text14 CODE >68:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E69 text14 CODE >70:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
-E6A text13 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-E6D text13 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-E76 text13 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-E85 text13 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-E86 text13 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-E8E text13 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-E8E text13 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-E96 text13 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-E9F text13 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EA3 text13 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EA4 text13 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EA8 text13 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EB1 text13 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EB8 text13 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EBC text13 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-ECA text13 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-ED3 text13 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-ED3 text13 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EDA text13 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EDC text13 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EE5 text13 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EEF text13 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EF3 text13 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EFB text13 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-EFD text13 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-F13 text13 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-F1C text13 CODE >42:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-F1D text13 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-F25 text13 CODE >44:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
-8C4 text12 CODE >152:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8C4 text12 CODE >153:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8C7 text12 CODE >154:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8C7 text12 CODE >155:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8CB text12 CODE >156:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8D3 text12 CODE >157:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-C02 text11 CODE >164:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-C02 text11 CODE >166:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-C3C text11 CODE >168:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-C46 text11 CODE >169:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-C47 text10 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C47 text10 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C4B text10 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C51 text10 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C53 text10 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C54 text10 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C5B text10 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C5F text10 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C63 text10 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C6A text10 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C74 text10 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C7A text10 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C7B text10 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C82 text10 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C88 text10 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-C8C text10 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
-B48 text9 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B48 text9 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B50 text9 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B52 text9 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B53 text9 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B5A text9 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B5E text9 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B62 text9 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B6C text9 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B72 text9 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B79 text9 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B7F text9 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-B83 text9 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
-F26 text8 CODE >505:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F29 text8 CODE >550:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F2D text8 CODE >553:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F2E text8 CODE >555:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F34 text8 CODE >558:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F3F text8 CODE >559:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F40 text8 CODE >565:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F41 text8 CODE >848:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F5C text8 CODE >1285:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F68 text8 CODE >1287:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F6C text8 CODE >1288:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F70 text8 CODE >1289:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F75 text8 CODE >1331:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F77 text8 CODE >1332:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F8F text8 CODE >1333:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F99 text8 CODE >1464:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-F9F text8 CODE >1465:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-FAA text8 CODE >1498:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-FAE text8 CODE >1500:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-FAF text8 CODE >1515:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-FD7 text8 CODE >1550:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-FE2 text8 CODE >1500:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-FEB text8 CODE >553:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-FFB text8 CODE >1564:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-FFF text8 CODE >1567:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
-D3A text7 CODE >404:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D3A text7 CODE >408:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D43 text7 CODE >409:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D51 text7 CODE >410:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D5A text7 CODE >412:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D63 text7 CODE >413:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D71 text7 CODE >414:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D7A text7 CODE >416:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D88 text7 CODE >417:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-DA4 text7 CODE >418:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-DA5 text7 CODE >419:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-DC1 text7 CODE >422:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-DC4 text7 CODE >423:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-DCD text7 CODE >424:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-A82 text6 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
-A85 text6 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
-A89 text6 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
-A8A text6 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
-A8E text6 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
-A97 text6 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
-A9B text6 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
-A9F text6 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
-AAE text6 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
-CD8 text5 CODE >176:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-CD8 text5 CODE >178:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D18 text5 CODE >180:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D2E text5 CODE >181:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D38 text5 CODE >183:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-D39 text5 CODE >184:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-95C text4 CODE >386:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-95C text4 CODE >387:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-978 text4 CODE >388:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-A56 text3 CODE >394:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-A59 text3 CODE >395:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-A5C text3 CODE >396:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-A60 text3 CODE >397:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-A68 text3 CODE >398:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-A81 text3 CODE >399:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-C8D text2 CODE >429:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-C8D text2 CODE >431:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-C96 text2 CODE >433:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-CAB text2 CODE >435:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-CC2 text2 CODE >436:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-CC6 text2 CODE >438:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-CD4 text2 CODE >439:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-CD7 text2 CODE >440:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+11 cinit CODE >584:C:\Users\Cristian\AppData\Local\Temp\sps.s
+11 cinit CODE >587:C:\Users\Cristian\AppData\Local\Temp\sps.s
+11 cinit CODE >672:C:\Users\Cristian\AppData\Local\Temp\sps.s
+12 cinit CODE >673:C:\Users\Cristian\AppData\Local\Temp\sps.s
+13 cinit CODE >674:C:\Users\Cristian\AppData\Local\Temp\sps.s
+14 cinit CODE >675:C:\Users\Cristian\AppData\Local\Temp\sps.s
+15 cinit CODE >676:C:\Users\Cristian\AppData\Local\Temp\sps.s
+16 cinit CODE >677:C:\Users\Cristian\AppData\Local\Temp\sps.s
+17 cinit CODE >678:C:\Users\Cristian\AppData\Local\Temp\sps.s
+18 cinit CODE >679:C:\Users\Cristian\AppData\Local\Temp\sps.s
+19 cinit CODE >680:C:\Users\Cristian\AppData\Local\Temp\sps.s
+1A cinit CODE >681:C:\Users\Cristian\AppData\Local\Temp\sps.s
+1D cinit CODE >685:C:\Users\Cristian\AppData\Local\Temp\sps.s
+1E cinit CODE >686:C:\Users\Cristian\AppData\Local\Temp\sps.s
+1F cinit CODE >687:C:\Users\Cristian\AppData\Local\Temp\sps.s
+20 cinit CODE >688:C:\Users\Cristian\AppData\Local\Temp\sps.s
+21 cinit CODE >689:C:\Users\Cristian\AppData\Local\Temp\sps.s
+22 cinit CODE >690:C:\Users\Cristian\AppData\Local\Temp\sps.s
+23 cinit CODE >691:C:\Users\Cristian\AppData\Local\Temp\sps.s
+24 cinit CODE >692:C:\Users\Cristian\AppData\Local\Temp\sps.s
+25 cinit CODE >693:C:\Users\Cristian\AppData\Local\Temp\sps.s
+28 cinit CODE >697:C:\Users\Cristian\AppData\Local\Temp\sps.s
+29 cinit CODE >698:C:\Users\Cristian\AppData\Local\Temp\sps.s
+2A cinit CODE >699:C:\Users\Cristian\AppData\Local\Temp\sps.s
+2B cinit CODE >700:C:\Users\Cristian\AppData\Local\Temp\sps.s
+2C cinit CODE >701:C:\Users\Cristian\AppData\Local\Temp\sps.s
+2D cinit CODE >702:C:\Users\Cristian\AppData\Local\Temp\sps.s
+2E cinit CODE >705:C:\Users\Cristian\AppData\Local\Temp\sps.s
+2F cinit CODE >706:C:\Users\Cristian\AppData\Local\Temp\sps.s
+30 cinit CODE >707:C:\Users\Cristian\AppData\Local\Temp\sps.s
+31 cinit CODE >708:C:\Users\Cristian\AppData\Local\Temp\sps.s
+32 cinit CODE >709:C:\Users\Cristian\AppData\Local\Temp\sps.s
+33 cinit CODE >710:C:\Users\Cristian\AppData\Local\Temp\sps.s
+34 cinit CODE >711:C:\Users\Cristian\AppData\Local\Temp\sps.s
+35 cinit CODE >712:C:\Users\Cristian\AppData\Local\Temp\sps.s
+36 cinit CODE >713:C:\Users\Cristian\AppData\Local\Temp\sps.s
+37 cinit CODE >719:C:\Users\Cristian\AppData\Local\Temp\sps.s
+37 cinit CODE >721:C:\Users\Cristian\AppData\Local\Temp\sps.s
+38 cinit CODE >722:C:\Users\Cristian\AppData\Local\Temp\sps.s
+4 intentry CODE >299:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+906 text44 CODE >27:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+906 text44 CODE >28:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+909 text44 CODE >29:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+912 text44 CODE >30:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+915 text44 CODE >31:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C3E text43 CODE >38:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C3E text43 CODE >41:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C4E text43 CODE >42:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C50 text43 CODE >43:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C5A text43 CODE >44:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C5D text43 CODE >46:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C6D text43 CODE >47:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C6F text43 CODE >48:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C79 text43 CODE >49:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C7C text43 CODE >50:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8D2 text42 CODE >102:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8D2 text42 CODE >103:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8DE text42 CODE >104:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+916 text41 CODE >197:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+916 text41 CODE >198:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+91E text41 CODE >199:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+921 text41 CODE >200:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+925 text41 CODE >202:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+98C text40 CODE >55:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+98C text40 CODE >56:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+98C text40 CODE >57:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+992 text40 CODE >58:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+994 text40 CODE >59:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+995 text40 CODE >60:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+998 text40 CODE >61:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+998 text40 CODE >62:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+99C text40 CODE >63:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+99D text40 CODE >64:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9A0 text40 CODE >65:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A4B text39 CODE >72:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A4E text39 CODE >74:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A5C text39 CODE >76:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A6C text39 CODE >78:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A6F text39 CODE >79:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B6C text38 CODE >220:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B6F text38 CODE >222:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B75 text38 CODE >223:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B78 text38 CODE >224:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B83 text38 CODE >225:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B8B text38 CODE >226:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B93 text38 CODE >227:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B9B text38 CODE >230:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A95 text37 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+A95 text37 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+A99 text37 CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+A9D text37 CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+AA3 text37 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+AAA text37 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+AB1 text37 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+AB7 text37 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+ABB text37 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+978 text36 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\isdigit.c
+97B text36 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\isdigit.c
+98B text36 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\isdigit.c
+780 text35 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+783 text35 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+784 text35 CODE >11:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+788 text35 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+799 text35 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+79B text35 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+79C text35 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+7A4 text35 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+7A8 text35 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+7AC text35 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+7B5 text35 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+7BA text35 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+7DD text35 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+7E7 text35 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+7EE text35 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+7FA text35 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+7FE text35 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\atoi.c
+8DF text34 CODE >208:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8DF text34 CODE >209:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8E8 text34 CODE >210:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8E9 text34 CODE >211:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8EA text34 CODE >212:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8EB text34 CODE >214:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6AC text33 CODE >235:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6AC text33 CODE >237:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6AD text33 CODE >239:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6B3 text33 CODE >240:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6B6 text33 CODE >241:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6C1 text33 CODE >242:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6C9 text33 CODE >243:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6D1 text33 CODE >244:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6DA text33 CODE >249:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6DE text33 CODE >250:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6DF text33 CODE >252:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6E3 text33 CODE >253:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6E4 text33 CODE >255:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6E8 text33 CODE >256:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6E9 text33 CODE >258:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6ED text33 CODE >259:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6EE text33 CODE >261:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6F2 text33 CODE >262:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6F3 text33 CODE >264:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6F7 text33 CODE >265:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6F8 text33 CODE >267:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6FC text33 CODE >268:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+6FD text33 CODE >270:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+701 text33 CODE >271:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+702 text33 CODE >273:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+706 text33 CODE >274:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+707 text33 CODE >276:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+70D text33 CODE >277:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+70F text33 CODE >278:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+710 text33 CODE >280:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+714 text33 CODE >281:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+718 text33 CODE >282:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+721 text33 CODE >283:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+722 text33 CODE >285:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+726 text33 CODE >286:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+72A text33 CODE >287:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+733 text33 CODE >288:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+734 text33 CODE >290:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+744 text33 CODE >291:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+748 text33 CODE >292:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+749 text33 CODE >293:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+77F text33 CODE >294:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A07 text32 CODE >299:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A07 text32 CODE >301:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A0B text32 CODE >303:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A0E text32 CODE >304:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A1C text32 CODE >306:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A1D text32 CODE >309:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A1E text32 CODE >310:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+926 text31 CODE >27:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+926 text31 CODE >28:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+929 text31 CODE >29:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+932 text31 CODE >30:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+935 text31 CODE >31:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C7D text30 CODE >38:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C7D text30 CODE >41:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C8D text30 CODE >42:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C8F text30 CODE >43:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C99 text30 CODE >44:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C9C text30 CODE >46:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+CAC text30 CODE >47:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+CAE text30 CODE >48:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+CB8 text30 CODE >49:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+CBB text30 CODE >50:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8EC text29 CODE >102:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8EC text29 CODE >103:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8F8 text29 CODE >104:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8B1 text28 CODE >121:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8B1 text28 CODE >122:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8B5 text28 CODE >123:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8B7 text28 CODE >124:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8B8 text28 CODE >125:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8B9 text28 CODE >126:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8BA text28 CODE >127:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+956 text27 CODE >132:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+956 text27 CODE >133:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+959 text27 CODE >134:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+95C text27 CODE >135:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+95D text27 CODE >136:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+960 text27 CODE >137:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+961 text27 CODE >138:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+962 text27 CODE >140:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+963 text27 CODE >141:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+964 text27 CODE >143:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+966 text27 CODE >144:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8BB text26 CODE >187:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8BB text26 CODE >188:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8BF text26 CODE >189:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8C1 text26 CODE >190:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8C3 text26 CODE >191:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8C5 text26 CODE >192:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9A1 text25 CODE >55:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9A1 text25 CODE >56:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9A1 text25 CODE >57:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9A7 text25 CODE >58:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9A9 text25 CODE >59:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9AA text25 CODE >60:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9AD text25 CODE >61:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9AD text25 CODE >62:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9B1 text25 CODE >63:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9B2 text25 CODE >64:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9B5 text25 CODE >65:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A70 text24 CODE >72:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A73 text24 CODE >74:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A81 text24 CODE >76:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A91 text24 CODE >78:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A94 text24 CODE >79:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A29 text23 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
+A29 text23 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
+A2F text23 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
+A30 text23 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
+A36 text23 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
+A42 text23 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
+A4A text23 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
+B9C text22 CODE >85:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B9C text22 CODE >86:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+BA1 text22 CODE >87:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+BB3 text22 CODE >88:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+BCE text22 CODE >89:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+936 text21 CODE >95:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+936 text21 CODE >96:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+945 text21 CODE >97:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B3E text20 CODE >315:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B3E text20 CODE >317:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B47 text20 CODE >318:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B50 text20 CODE >320:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B51 text20 CODE >321:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B54 text20 CODE >320:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B5C text20 CODE >324:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B67 text20 CODE >325:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B6B text20 CODE >327:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9B6 text19 CODE >109:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9B6 text19 CODE >110:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9BA text19 CODE >111:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9BC text19 CODE >112:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9BE text19 CODE >113:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9C2 text19 CODE >114:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9C3 text19 CODE >115:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9CD text19 CODE >116:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8F9 text18 CODE >208:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+8F9 text18 CODE >209:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+902 text18 CODE >210:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+903 text18 CODE >211:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+904 text18 CODE >212:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+905 text18 CODE >214:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+ABC text17 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+ABF text17 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+AC1 text17 CODE >6:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+AC8 text17 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+ACC text17 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+AD2 text17 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+AD2 text17 CODE >54:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+AD9 text17 CODE >55:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+ADB text17 CODE >56:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+AE0 text17 CODE >59:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+AE4 text17 CODE >60:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+3A text16 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+3A text16 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+45 text16 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+4F text16 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+53 text16 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+54 text16 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+59 text16 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+5E text16 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+66 text16 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+67 text16 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+68 text16 CODE >36:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+70 text16 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+79 text16 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+83 text16 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+87 text16 CODE >42:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+88 text16 CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+8D text16 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+92 text16 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+9A text16 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+9B text16 CODE >54:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+9C text16 CODE >57:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+A4 text16 CODE >65:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+AE text16 CODE >66:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+B7 text16 CODE >119:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+CF text16 CODE >120:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+EC text16 CODE >121:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+109 text16 CODE >122:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+121 text16 CODE >123:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+151 text16 CODE >124:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+181 text16 CODE >125:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+199 text16 CODE >126:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+1C9 text16 CODE >127:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+1F9 text16 CODE >128:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+208 text16 CODE >129:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+222 text16 CODE >130:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+257 text16 CODE >131:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+26F text16 CODE >132:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+2A4 text16 CODE >133:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+2B3 text16 CODE >134:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+2CD text16 CODE >135:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+302 text16 CODE >136:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+31A text16 CODE >137:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+34F text16 CODE >138:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+367 text16 CODE >139:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+39C text16 CODE >140:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+3B4 text16 CODE >141:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+3F2 text16 CODE >145:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+43A text16 CODE >146:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+449 text16 CODE >149:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+460 text16 CODE >152:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+461 text16 CODE >153:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+470 text16 CODE >154:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+476 text16 CODE >155:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+477 text16 CODE >157:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+486 text16 CODE >158:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+48E text16 CODE >152:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+492 text16 CODE >163:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+493 text16 CODE >164:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+497 text16 CODE >165:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+4B9 text16 CODE >166:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+4BD text16 CODE >167:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+4BE text16 CODE >168:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+4BE text16 CODE >169:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+4C5 text16 CODE >174:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+4CA text16 CODE >175:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+4D8 text16 CODE >176:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+4DC text16 CODE >177:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+511 text16 CODE >178:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+517 text16 CODE >183:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+524 text16 CODE >184:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+52E text16 CODE >185:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+52F text16 CODE >187:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+53E text16 CODE >188:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+548 text16 CODE >190:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+549 text16 CODE >191:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+54A text16 CODE >194:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+554 text16 CODE >195:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+55C text16 CODE >196:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+560 text16 CODE >197:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+561 text16 CODE >199:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+56C text16 CODE >200:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+56C text16 CODE >201:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+574 text16 CODE >203:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+57C text16 CODE >205:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+E0C text15 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E0C text15 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E1B text15 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E26 text15 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E3F text15 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E42 text15 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E4A text15 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E4E text15 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E52 text15 CODE >54:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E5A text15 CODE >57:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E65 text15 CODE >58:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E70 text15 CODE >60:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E77 text15 CODE >63:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E82 text15 CODE >64:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E86 text15 CODE >62:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E86 text15 CODE >65:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E8B text15 CODE >67:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E90 text15 CODE >68:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+E9D text15 CODE >70:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+F44 text14 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F47 text14 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F50 text14 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F5F text14 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F60 text14 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F68 text14 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F68 text14 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F70 text14 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F79 text14 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F7D text14 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F7E text14 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F82 text14 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F8B text14 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F92 text14 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+F96 text14 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FA4 text14 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FAD text14 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FAD text14 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FB4 text14 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FB6 text14 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FBF text14 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FC9 text14 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FCD text14 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FD5 text14 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FD7 text14 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FED text14 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FF6 text14 CODE >42:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FF7 text14 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+FFF text14 CODE >44:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+946 text13 CODE >150:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+946 text13 CODE >151:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+949 text13 CODE >152:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+949 text13 CODE >153:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+94D text13 CODE >154:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+955 text13 CODE >155:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D02 text12 CODE >162:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D02 text12 CODE >164:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D4A text12 CODE >166:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D4E text12 CODE >167:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9EA text11 CODE >334:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9EA text11 CODE >335:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+A06 text11 CODE >336:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+AE5 text10 CODE >342:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+AE8 text10 CODE >343:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+AEB text10 CODE >344:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+AEF text10 CODE >345:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+AF7 text10 CODE >346:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B10 text10 CODE >347:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9CE text9 CODE >349:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9CE text9 CODE >350:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9E5 text9 CODE >351:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+9E9 text9 CODE >352:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+CBC text8 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CBC text8 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CC0 text8 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CC6 text8 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CC8 text8 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CC9 text8 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CD0 text8 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CD4 text8 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CD8 text8 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CDF text8 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CE9 text8 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CEF text8 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CF0 text8 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CF7 text8 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+CFD text8 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+D01 text8 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+C02 text7 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C02 text7 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C0A text7 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C0C text7 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C0D text7 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C14 text7 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C18 text7 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C1C text7 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C26 text7 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C2C text7 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C33 text7 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C39 text7 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+C3D text7 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+57D text6 CODE >505:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+580 text6 CODE >550:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+588 text6 CODE >553:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+589 text6 CODE >555:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+58F text6 CODE >558:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+5A2 text6 CODE >559:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+5A3 text6 CODE >565:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+5A4 text6 CODE >848:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+5C5 text6 CODE >1285:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+5D7 text6 CODE >1287:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+5DB text6 CODE >1288:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+5E3 text6 CODE >1289:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+5E8 text6 CODE >1331:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+5EA text6 CODE >1332:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+60A text6 CODE >1333:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+618 text6 CODE >1464:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+61E text6 CODE >1465:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+631 text6 CODE >1498:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+639 text6 CODE >1500:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+63A text6 CODE >1515:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+672 text6 CODE >1550:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+685 text6 CODE >1500:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+692 text6 CODE >553:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+6A5 text6 CODE >1564:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+6AB text6 CODE >1567:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+E9E text5 CODE >357:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+E9E text5 CODE >361:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+EA7 text5 CODE >362:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+EB1 text5 CODE >363:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+EBA text5 CODE >365:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+EC3 text5 CODE >366:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+ECD text5 CODE >367:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+ED6 text5 CODE >369:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+EE0 text5 CODE >370:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+EE8 text5 CODE >371:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+EFE text5 CODE >372:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+EFF text5 CODE >373:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+F07 text5 CODE >374:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+F1D text5 CODE >377:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+F34 text5 CODE >378:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+F37 text5 CODE >379:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+F37 text5 CODE >381:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+F40 text5 CODE >382:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+F43 text5 CODE >383:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+B11 text4 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
+B14 text4 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
+B18 text4 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
+B19 text4 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
+B1D text4 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
+B26 text4 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
+B2A text4 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
+B2E text4 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
+B3D text4 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
+DA0 text3 CODE >174:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+DA0 text3 CODE >176:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+DE8 text3 CODE >178:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+DFE text3 CODE >179:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+E0A text3 CODE >181:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+E0B text3 CODE >182:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+BCF text2 CODE >388:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+BCF text2 CODE >390:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+BD8 text2 CODE >392:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+BED text2 CODE >393:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+BF0 text2 CODE >394:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+BF0 text2 CODE >395:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+BFE text2 CODE >396:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+C01 text2 CODE >397:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
 2 text1 CODE >20:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
 2 text1 CODE >21:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B10 maintext CODE >442:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B10 maintext CODE >444:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B13 maintext CODE >445:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B16 maintext CODE >446:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B19 maintext CODE >448:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B1F maintext CODE >451:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B20 maintext CODE >452:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B26 maintext CODE >453:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B29 maintext CODE >454:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B2D maintext CODE >455:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B34 maintext CODE >456:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B37 maintext CODE >457:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B38 maintext CODE >458:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B3B maintext CODE >451:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B43 maintext CODE >461:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-B46 maintext CODE >464:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
-8F5 inittext CODE >637:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-8F5 inittext CODE >638:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-8F6 inittext CODE >639:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-8F7 inittext CODE >640:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-8F8 inittext CODE >641:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-8F9 inittext CODE >648:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-8F9 inittext CODE >649:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-8FC inittext CODE >650:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-8FD inittext CODE >651:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-8FE inittext CODE >652:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-8FF inittext CODE >653:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-900 inittext CODE >654:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-901 inittext CODE >655:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-902 inittext CODE >656:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-903 inittext CODE >657:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-904 inittext CODE >658:C:\Users\Cristian\AppData\Local\Temp\s14c.s
-905 inittext CODE >659:C:\Users\Cristian\AppData\Local\Temp\s14c.s
+D4F maintext CODE >399:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D4F maintext CODE >401:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D52 maintext CODE >402:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D55 maintext CODE >403:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D58 maintext CODE >405:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D5E maintext CODE >408:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D5F maintext CODE >409:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D65 maintext CODE >410:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D68 maintext CODE >411:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D6C maintext CODE >412:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D70 maintext CODE >413:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D77 maintext CODE >414:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D82 maintext CODE >415:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D85 maintext CODE >416:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D88 maintext CODE >417:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D8F maintext CODE >418:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D93 maintext CODE >408:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D93 maintext CODE >419:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D9B maintext CODE >421:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+D9E maintext CODE >424:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\termometroDiferencial.c
+967 inittext CODE >646:C:\Users\Cristian\AppData\Local\Temp\sps.s
+967 inittext CODE >647:C:\Users\Cristian\AppData\Local\Temp\sps.s
+968 inittext CODE >648:C:\Users\Cristian\AppData\Local\Temp\sps.s
+969 inittext CODE >649:C:\Users\Cristian\AppData\Local\Temp\sps.s
+96A inittext CODE >650:C:\Users\Cristian\AppData\Local\Temp\sps.s
+96B inittext CODE >657:C:\Users\Cristian\AppData\Local\Temp\sps.s
+96B inittext CODE >658:C:\Users\Cristian\AppData\Local\Temp\sps.s
+96E inittext CODE >659:C:\Users\Cristian\AppData\Local\Temp\sps.s
+96F inittext CODE >660:C:\Users\Cristian\AppData\Local\Temp\sps.s
+970 inittext CODE >661:C:\Users\Cristian\AppData\Local\Temp\sps.s
+971 inittext CODE >662:C:\Users\Cristian\AppData\Local\Temp\sps.s
+972 inittext CODE >663:C:\Users\Cristian\AppData\Local\Temp\sps.s
+973 inittext CODE >664:C:\Users\Cristian\AppData\Local\Temp\sps.s
+974 inittext CODE >665:C:\Users\Cristian\AppData\Local\Temp\sps.s
+975 inittext CODE >666:C:\Users\Cristian\AppData\Local\Temp\sps.s
+976 inittext CODE >667:C:\Users\Cristian\AppData\Local\Temp\sps.s
+977 inittext CODE >668:C:\Users\Cristian\AppData\Local\Temp\sps.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -691,7 +695,7 @@ B46 maintext CODE >464:A:\Universidad\7°\Micros\ProyectoTermometroDiferencial.X\
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
 ___latbits 1 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___lwmod@counter 45 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___lwmod@counter 47 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __LdataBANK0 0 0 ABS 0 dataBANK0 -
 __LdataBANK1 0 0 ABS 0 dataBANK1 -
 __size_of_clearIfFirst 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
@@ -699,16 +703,17 @@ __Hspace_0 1000 0 ABS 0 - -
 __Hspace_1 E8 0 ABS 0 - -
 __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
-i1_flank 1108 0 CODE 0 text39 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+i1_flank 120C 0 CODE 0 text44 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+send@msg 46 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __HidataBANK0 0 0 ABS 0 idataBANK0 -
 __HidataBANK1 0 0 ABS 0 idataBANK1 -
-__end_of_writeOnLCD 1188 0 CODE 0 text21 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-turnOnLCD@d1 39 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_writeOnLCD 128C 0 CODE 0 text21 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+turnOnLCD@d1 3B 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __size_ofi1_sendNibble 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _GO FA 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_configKeyboard 10A4 0 CODE 0 text30 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-getTemperatureInt@temp 5B 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_configKeyboard 1176 0 CODE 0 text28 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+getTemperatureInt@temp C0 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Hstrings 0 0 ABS 0 strings -
 _BRGH 4C2 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _CHS0 FB 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
@@ -721,54 +726,57 @@ _SYNC 4C4 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.prod
 _TXEN 4C5 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _TXIE 464 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _TXIF 64 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Cristian\AppData\Local\Temp\s14c.o
-_atoi EE6 0 CODE 0 text40 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\Cristian\AppData\Local\Temp\sps.o
+_atoi F00 0 CODE 0 text35 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _cont 5D 0 BANK0 1 bssBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_main 1620 0 CODE 0 maintext dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_main 1A9E 0 CODE 0 maintext dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_send 139C 0 CODE 0 text9 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _wait 4 0 CODE 0 text1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-sendNibble@d1 3F 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-sendNibble@d2 41 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-sendNibble@rs 3B 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-start 1E 0 CODE 0 init C:\Users\Cristian\AppData\Local\Temp\s14c.o
-___flmul@aexp A1 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___flmul@bexp A6 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___flmul@prod A7 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___flmul@sign A0 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___flmul@temp AB 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+sendNibble@d1 41 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+sendNibble@d2 43 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+sendNibble@rs 3D 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+start 1E 0 CODE 0 init C:\Users\Cristian\AppData\Local\Temp\sps.o
+___flmul@aexp A9 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___flmul@bexp AE 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___flmul@prod AF 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___flmul@sign A8 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___flmul@temp B3 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 i1putCharacter@character 2F 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of___flmul 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of___fltol 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_atoi 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__size_of_send 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_wait 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of___lwdiv 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of___lwmod 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_clearIfFirst 1148 0 CODE 0 text36 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_getVoltaje 11A8 0 CODE 0 text12 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_clearIfFirst 124C 0 CODE 0 text41 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_getVoltaje 12AC 0 CODE 0 text13 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 ?___wmul 20 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-turnOnSerialAlarm@i 3D 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_ofi1_sendNibble 1786 0 CODE 0 text38 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+turnOnSerialAlarm@i 3F 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_ofi1_sendNibble 18FA 0 CODE 0 text43 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __LidataBANK1 0 0 ABS 0 idataBANK1 -
 __size_of_getTemperatureInt 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Hpowerup 0 0 CODE 0 powerup -
-__end_of_changeThermometerChannel 1108 0 CODE 0 text18 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_configTempMode 155E 0 CODE 0 text20 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\s14c.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\s14c.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\s14c.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\s14c.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\s14c.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\s14c.o
-__end_of_turnOnSerialAlarm 1504 0 CODE 0 text3 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-strcat@from 38 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_changeThermometerChannel 120C 0 CODE 0 text18 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_configTempMode 167C 0 CODE 0 text20 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\sps.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\sps.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\sps.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\sps.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\sps.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Cristian\AppData\Local\Temp\sps.o
+__end_of_turnOnSerialAlarm 1622 0 CODE 0 text10 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+strcat@from 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 i1putCharacter@position 2B 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
-__end_of_showDifferenceTemp 1B9C 0 CODE 0 text7 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-isItHot@temp 38 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_showDifferenceTemp 1E88 0 CODE 0 text5 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+isItHot@temp 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext -
+send@F1086 51 0 BANK0 1 dataBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_ofi1_changeThermometerChannel 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_ofi1_turnOnLCD 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 ___wmul@multiplicand 22 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
@@ -776,92 +784,94 @@ _ADCON0 1F 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.pro
 _ADCON1 9F 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _ADRESH 1E 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _ADRESL 9E 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of__Umul8_16 14AC 0 CODE 0 text16 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of__Umul8_16 15CA 0 CODE 0 text17 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of__Umul8_16 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of___wmul 145A 0 CODE 0 text42 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of___wmul 1578 0 CODE 0 text37 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 i1turnOnLCD@d1 21 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_addCharToMaxTemp 16D8 0 CODE 0 text38 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _maxTempString 5F 0 BANK0 1 bssBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lmaintext 0 0 ABS 0 maintext -
 __size_of_sprintf 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_configTempMode 15BA 0 CODE 0 text20 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_configTempMode 16D8 0 CODE 0 text20 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_isItHot 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___lwmod@divisor 40 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_showDifferenceTemp 1A74 0 CODE 0 text7 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__Umul8_16 145A 0 CODE 0 text16 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of___flmul B06 0 CODE 0 text15 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of___fltol 1CD4 0 CODE 0 text14 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of___lwdiv 191A 0 CODE 0 text10 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of___lwmod 1708 0 CODE 0 text9 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___lwmod@divisor 42 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_showDifferenceTemp 1D3C 0 CODE 0 text5 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__Umul8_16 1578 0 CODE 0 text17 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of___flmul AFA 0 CODE 0 text16 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of___fltol 1D3C 0 CODE 0 text15 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of___lwdiv 1A04 0 CODE 0 text8 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of___lwmod 187C 0 CODE 0 text7 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_isdigit 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-putCharacter@position 43 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_configSerialPort 11C8 0 CODE 0 text29 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-i1_putCharacter 1378 0 CODE 0 text33 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-?_strlen 38 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__Umul8_16@multiplicand 38 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-writeWord@word 48 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+putCharacter@position 45 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_configSerialPort 12AC 0 CODE 0 text27 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+i1_putCharacter 1496 0 CODE 0 text39 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+?_strlen 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__Umul8_16@multiplicand 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+writeWord@word 4A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _OPTION_REG 81 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\Cristian\AppData\Local\Temp\s14c.o
-___stacklo 0 0 ABS 0 - C:\Users\Cristian\AppData\Local\Temp\s14c.o
+___stackhi 0 0 ABS 0 - C:\Users\Cristian\AppData\Local\Temp\sps.o
+___stacklo 0 0 ABS 0 - C:\Users\Cristian\AppData\Local\Temp\sps.o
 _dpowers 1020 0 STRING 0 strings dist/default/production\ProyectoTermometroDiferencial.X.production.o
-showTemp@F1088 D6 0 BANK1 1 dataBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-i1_changeThermometerChannel 10D4 0 CODE 0 text35 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___lwdiv@quotient 3D 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+i1_changeThermometerChannel 11BE 0 CODE 0 text34 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___lwdiv@quotient 40 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_flank 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___flmul@a 4C 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___flmul@b 48 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___flmul@a A4 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___flmul@b A0 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_keyboard 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_getTemperatureString 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_globalInterruption 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___lwmod@dividend 42 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___lwmod@dividend 44 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 start_initialization 22 0 CODE 0 cinit dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_turnOnSerialAlarm 14AC 0 CODE 0 text3 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-showTemp@msg C6 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_turnOnSerialAlarm 15CA 0 CODE 0 text10 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_writeOnLCD 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_getTemperatureInt 188E 0 CODE 0 text11 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_getTemperatureString 1A74 0 CODE 0 text5 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_ZeroSequenceKeyboard 10A4 0 CODE 0 text28 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_getTemperatureInt 1A9E 0 CODE 0 text12 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_getTemperatureString 1C18 0 CODE 0 text3 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_ZeroSequenceKeyboard 1176 0 CODE 0 text26 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_ofi1_putCharacter 13C2 0 CODE 0 text33 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_isdigit$665 20 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_ofi1_putCharacter 14E0 0 CODE 0 text39 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_readTem E0 0 BANK1 1 bssBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_isdigit$672 20 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_getVoltaje 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Cristian\AppData\Local\Temp\s14c.o
+___int_sp 0 0 STACK 2 stack C:\Users\Cristian\AppData\Local\Temp\sps.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 BANK2 1 bank2 -
 __Hbank3 0 0 BANK3 1 bank3 -
-__Hcinit 6C 0 CODE 0 cinit -
-i1_clearLCD 10BA 0 CODE 0 text37 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_strcat 155E 0 CODE 0 text6 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_strlen 1378 0 CODE 0 text23 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__Hcinit 74 0 CODE 0 cinit -
+i1_clearLCD 11A4 0 CODE 0 text42 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_strcat 167C 0 CODE 0 text4 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_strlen 1496 0 CODE 0 text23 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Hidloc 0 0 IDLOC 0 idloc -
 __Hstack 0 0 STACK 2 stack -
+__end_of_addCharToMaxTemp 1738 0 CODE 0 text38 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __stringbase 101E 0 STRING 0 strings dist/default/production\ProyectoTermometroDiferencial.X.production.o
 ___lwdiv@counter 3F 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of___xxtofl 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Hmaintext 0 0 ABS 0 maintext -
-_keyboard B06 0 CODE 0 text32 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-?_getVoltaje 38 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___xxtofl@arg 44 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___xxtofl@exp 43 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___xxtofl@val 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_sprintf 2000 0 CODE 0 text8 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_keyboard D58 0 CODE 0 text33 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+?_getVoltaje 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___xxtofl@arg 46 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___xxtofl@exp 45 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___xxtofl@val 3C 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_sprintf D58 0 CODE 0 text6 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Hcommon 0 0 ABS 0 common -
 __Hconfig 0 0 CONFIG 0 config -
-__end_of_isItHot 12F2 0 CODE 0 text4 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_configSerialPort 11EA 0 CODE 0 text29 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__size_of_addCharToMaxTemp 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_isItHot 140E 0 CODE 0 text11 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_configSerialPort 12CE 0 CODE 0 text27 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lbank0 0 0 ABS 0 bank0 -
 __Lbank1 0 0 ABS 0 bank1 -
 __Lbank2 0 0 BANK2 1 bank2 -
 __Lbank3 0 0 BANK3 1 bank3 -
-__end_of_isdigit 1234 0 CODE 0 text41 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_isdigit 1318 0 CODE 0 text36 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lcinit 22 0 CODE 0 cinit -
 __Lidloc 0 0 IDLOC 0 idloc -
 __Lstack 0 0 STACK 2 stack -
-__end_of_keyboard EE6 0 CODE 0 text32 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_configThermo 1288 0 CODE 0 text19 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___flmul@grs A2 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-writeOnLCD@word C0 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_keyboard F00 0 CODE 0 text33 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_configThermo 136C 0 CODE 0 text19 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___flmul@grs AA 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+writeOnLCD@word CD 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Linittext 0 0 ABS 0 inittext -
 __size_of_configSerialPort 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _INTCONbits B 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
@@ -882,10 +892,11 @@ __Lsfr1 0 0 ABS 0 sfr1 -
 __Lsfr2 0 0 ABS 0 sfr2 -
 __Lsfr3 0 0 ABS 0 sfr3 -
 __Ltext 0 0 ABS 0 text -
-___wmul 140C 0 CODE 0 text42 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___wmul 152A 0 CODE 0 text37 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __LcstackBANK1 0 0 ABS 0 cstackBANK1 -
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+showDifferenceTemp@tempDif DA 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_configKeyboard 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _GIE 5F 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _RC0 38 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
@@ -896,188 +907,192 @@ __S2 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
 atoi@sign 2A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_showTemp 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_sendNibble 1786 0 CODE 0 text26 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_sendNibble 18FA 0 CODE 0 text30 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 saved_w 7E 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-i1_turnOnLCD 1234 0 CODE 0 text34 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_getTemperatureInt 1804 0 CODE 0 text11 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-sprintf@val 4F 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-strcat@cp 3B 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-strcat@to 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-turnOnSerialAlarm@message 3F 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___xxtofl 1CD4 0 CODE 0 text13 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_ofi1_clearLCD 10D4 0 CODE 0 text37 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+i1_turnOnLCD 1318 0 CODE 0 text40 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_getTemperatureInt 1A04 0 CODE 0 text12 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+sprintf@val A3 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+strcat@cp 3D 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+strcat@to 3C 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+turnOnSerialAlarm@message 41 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___xxtofl 1E88 0 CODE 0 text14 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_ofi1_clearLCD 11BE 0 CODE 0 text42 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 i1sendNibble@d1 27 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 i1sendNibble@d2 29 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 i1sendNibble@rs 23 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_configThermo 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lintentry 8 0 CODE 0 intentry -
 __stringtab 1000 0 STRING 0 strings dist/default/production\ProyectoTermometroDiferencial.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Cristian\AppData\Local\Temp\s14c.o
-strlen@s 38 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of___xxtofl 1E4C 0 CODE 0 text13 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__pdataBANK0 62 0 BANK0 1 dataBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__pdataBANK1 D6 0 BANK1 1 dataBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Cristian\AppData\Local\Temp\sps.o
+strlen@s 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of___xxtofl 2000 0 CODE 0 text14 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__pdataBANK0 51 0 BANK0 1 dataBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__pdataBANK1 E4 0 BANK1 1 dataBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of___wmul 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
 __LbssBANK1 0 0 ABS 0 bssBANK1 -
-changeThermometerChannel@channel 38 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-sprintf@flag 4D 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-sprintf@prec 4E 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext10 188E 0 CODE 0 text10 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext11 1804 0 CODE 0 text11 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext12 1188 0 CODE 0 text12 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext13 1CD4 0 CODE 0 text13 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext14 1B9C 0 CODE 0 text14 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext15 6C 0 CODE 0 text15 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext16 145A 0 CODE 0 text16 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext17 FE4 0 CODE 0 text17 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext18 10EE 0 CODE 0 text18 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext19 1288 0 CODE 0 text19 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext20 155E 0 CODE 0 text20 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext21 1168 0 CODE 0 text21 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext22 15BA 0 CODE 0 text22 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext23 1334 0 CODE 0 text23 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext24 13C2 0 CODE 0 text24 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext25 125E 0 CODE 0 text25 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext26 1786 0 CODE 0 text26 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext27 1148 0 CODE 0 text27 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext28 10A4 0 CODE 0 text28 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext29 11C8 0 CODE 0 text29 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext30 1090 0 CODE 0 text30 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext31 12F2 0 CODE 0 text31 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext32 B06 0 CODE 0 text32 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext33 1378 0 CODE 0 text33 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext34 1234 0 CODE 0 text34 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext35 10D4 0 CODE 0 text35 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext36 1128 0 CODE 0 text36 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext37 10BA 0 CODE 0 text37 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext38 1708 0 CODE 0 text38 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext39 1108 0 CODE 0 text39 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext40 EE6 0 CODE 0 text40 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext41 120C 0 CODE 0 text41 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext42 140C 0 CODE 0 text42 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_configThermo 12B8 0 CODE 0 text19 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+changeThermometerChannel@channel 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+sprintf@flag A1 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+sprintf@prec A2 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext10 15CA 0 CODE 0 text10 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext11 13D4 0 CODE 0 text11 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext12 1A04 0 CODE 0 text12 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext13 128C 0 CODE 0 text13 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext14 1E88 0 CODE 0 text14 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext15 1C18 0 CODE 0 text15 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext16 74 0 CODE 0 text16 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext17 1578 0 CODE 0 text17 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext18 11F2 0 CODE 0 text18 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext19 136C 0 CODE 0 text19 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext20 167C 0 CODE 0 text20 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext21 126C 0 CODE 0 text21 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext22 1738 0 CODE 0 text22 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext23 1452 0 CODE 0 text23 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext24 14E0 0 CODE 0 text24 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext25 1342 0 CODE 0 text25 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext26 1176 0 CODE 0 text26 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext27 12AC 0 CODE 0 text27 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext28 1162 0 CODE 0 text28 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext29 11D8 0 CODE 0 text29 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext30 18FA 0 CODE 0 text30 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext31 124C 0 CODE 0 text31 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext32 140E 0 CODE 0 text32 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext33 D58 0 CODE 0 text33 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext34 11BE 0 CODE 0 text34 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext35 F00 0 CODE 0 text35 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext36 12F0 0 CODE 0 text36 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext37 152A 0 CODE 0 text37 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext38 16D8 0 CODE 0 text38 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext39 1496 0 CODE 0 text39 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext40 1318 0 CODE 0 text40 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext41 122C 0 CODE 0 text41 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext42 11A4 0 CODE 0 text42 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext43 187C 0 CODE 0 text43 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext44 120C 0 CODE 0 text44 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_configThermo 139C 0 CODE 0 text19 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_showDifferenceTemp 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___flmul 6C 0 CODE 0 text15 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___fltol 1B9C 0 CODE 0 text14 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___lwdiv 188E 0 CODE 0 text10 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___lwmod 1690 0 CODE 0 text9 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-strlen@cp 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__pmaintext 1620 0 CODE 0 maintext dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_showTemp 191A 0 CODE 0 text2 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__Umul8_16@multiplier 40 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___flmul 74 0 CODE 0 text16 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___fltol 1C18 0 CODE 0 text15 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___lwdiv 1978 0 CODE 0 text8 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___lwmod 1804 0 CODE 0 text7 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+strlen@cp 3C 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__pmaintext 1A9E 0 CODE 0 maintext dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_showTemp 179E 0 CODE 0 text2 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__Umul8_16@multiplier 42 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 ?_atoi 26 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 0 config -
 __Hinittext 0 0 ABS 0 inittext -
 ___wmul@multiplier 20 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_sendNibble 1804 0 CODE 0 text26 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_showTemp 19B0 0 CODE 0 text2 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_ofi1_flank 1128 0 CODE 0 text39 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___lwdiv@divisor 38 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_strcat 1504 0 CODE 0 text6 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_strlen 1334 0 CODE 0 text23 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_writeWord 1620 0 CODE 0 text22 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-sendNibble@n 39 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+addCharToMaxTemp@character 31 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_sendNibble 1978 0 CODE 0 text30 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_showTemp 1804 0 CODE 0 text2 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_ofi1_flank 122C 0 CODE 0 text44 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___lwdiv@divisor 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_strcat 1622 0 CODE 0 text4 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_strlen 1452 0 CODE 0 text23 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_writeWord 179E 0 CODE 0 text22 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+sendNibble@n 3B 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_writeWord 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_configTempMode 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_onConfTempMode E2 0 BANK1 1 dataBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_onConfTempMode E4 0 BANK1 1 dataBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __end_of__stringtab 1020 0 STRING 0 strings dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_changeThermometerChannel 10EE 0 CODE 0 text18 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_changeThermometerChannel 11F2 0 CODE 0 text18 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
-init_fetch0 11EA 0 CODE 0 inittext dist/default/production\ProyectoTermometroDiferencial.X.production.o
+init_fetch0 12CE 0 CODE 0 inittext dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __HcstackBANK1 0 0 ABS 0 cstackBANK1 -
-__Umul8_16@product 3C 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__Umul8_16@product 3E 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lend_init 1E 0 CODE 0 end_init -
-__end_of_turnOnLCD 1288 0 CODE 0 text25 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_turnOnLCD 136C 0 CODE 0 text25 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-___fltol@exp1 5A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_writeWord 15BA 0 CODE 0 text22 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___fltol@exp1 50 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_writeWord 1738 0 CODE 0 text22 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_turnOnLCD 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-end_of_initialization 66 0 CODE 0 cinit dist/default/production\ProyectoTermometroDiferencial.X.production.o
+end_of_initialization 6E 0 CODE 0 cinit dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Hintentry 1E 0 CODE 0 intentry -
-writeWord@i 4A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+writeWord@i 4C 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lstrings 0 0 ABS 0 strings -
-___lwdiv@dividend 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-?___flmul 48 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-?___fltol 55 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-?___lwdiv 38 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-?___lwmod 40 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___lwdiv@dividend 3C 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+?___flmul A0 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+?___fltol B5 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+?___lwdiv 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+?___lwmod 42 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Hreset_vec 4 0 CODE 0 reset_vec -
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
 __HbssBANK1 0 0 ABS 0 bssBANK1 -
 __size_of_strcat 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_strlen 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_turnOnLCD 125E 0 CODE 0 text25 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_getTemperatureString 19B0 0 CODE 0 text5 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_turnOnLCD 1342 0 CODE 0 text25 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_getTemperatureString 1B40 0 CODE 0 text3 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __ptext1 4 0 CODE 0 text1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext2 191A 0 CODE 0 text2 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext3 14AC 0 CODE 0 text3 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext4 12B8 0 CODE 0 text4 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext5 19B0 0 CODE 0 text5 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext6 1504 0 CODE 0 text6 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext7 1A74 0 CODE 0 text7 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext8 1E4C 0 CODE 0 text8 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__ptext9 1690 0 CODE 0 text9 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_putCharacter 13C2 0 CODE 0 text24 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-?__Umul8_16 38 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_sprintf 1E4C 0 CODE 0 text8 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext2 179E 0 CODE 0 text2 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext3 1B40 0 CODE 0 text3 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext4 1622 0 CODE 0 text4 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext5 1D3C 0 CODE 0 text5 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext6 AFA 0 CODE 0 text6 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext7 1804 0 CODE 0 text7 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext8 1978 0 CODE 0 text8 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__ptext9 139C 0 CODE 0 text9 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_putCharacter 14E0 0 CODE 0 text24 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+?__Umul8_16 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_sprintf AFA 0 CODE 0 text6 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lpowerup 0 0 CODE 0 powerup -
-?___xxtofl 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_isItHot 12B8 0 CODE 0 text4 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+?___xxtofl 3C 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_isItHot 13D4 0 CODE 0 text11 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
-sprintf@ap 4C 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-sprintf@sp 51 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_isdigit 120C 0 CODE 0 text41 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__Umul8_16@word_mpld 3E 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___fltol@sign1 59 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+sprintf@ap A0 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+sprintf@sp A5 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_isdigit 12F0 0 CODE 0 text36 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__Umul8_16@word_mpld 40 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___fltol@sign1 4F 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_ofi1_putCharacter 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-getTemperatureString@temp BE 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+getTemperatureString@temp CB 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec -
-putCharacter@character 47 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___fltol@f1 55 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+putCharacter@character 49 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___fltol@f1 B5 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_clearLCD 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of__initialization 66 0 CODE 0 cinit dist/default/production\ProyectoTermometroDiferencial.X.production.o
-getTemperatureString@str B2 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of__initialization 6E 0 CODE 0 cinit dist/default/production\ProyectoTermometroDiferencial.X.production.o
+getTemperatureString@str BF 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lfunctab 0 0 ENTRY 0 functab -
-_maxTemp E4 0 BANK1 1 dataBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_maxTemp E6 0 BANK1 1 dataBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_ofi1_clearLCD 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_waiting 64 0 BANK0 1 dataBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__pidataBANK0 1088 0 CODE 0 idataBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__pidataBANK1 11A8 0 CODE 0 idataBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_waiting 5B 0 BANK0 1 dataBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__pidataBANK0 118C 0 CODE 0 idataBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__pidataBANK1 115A 0 CODE 0 idataBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext -
-__end_of_globalInterruption 1334 0 CODE 0 text31 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_globalInterruption 1452 0 CODE 0 text32 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 i1sendNibble@n 21 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-main@running D4 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-?_getTemperatureInt B2 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+main@running DE 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+?_getTemperatureInt BE 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_putCharacter 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_ZeroSequenceKeyboard 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __pcstackCOMMON 0 0 COMMON 1 cstackCOMMON dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_writeOnLCD 1168 0 CODE 0 text21 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_writeOnLCD 126C 0 CODE 0 text21 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 i1changeThermometerChannel@channel 20 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Hend_init 22 0 CODE 0 end_init -
-init_ram0 11F2 0 CODE 0 inittext dist/default/production\ProyectoTermometroDiferencial.X.production.o
-showDifferenceTemp@temp1 CA 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-showDifferenceTemp@temp2 CC 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-sprintf@c 52 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-sprintf@f 46 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+init_ram0 12D6 0 CODE 0 inittext dist/default/production\ProyectoTermometroDiferencial.X.production.o
+showDifferenceTemp@temp1 D6 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+showDifferenceTemp@temp2 D8 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+sprintf@c A6 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+sprintf@f 48 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_turnOnSerialAlarm 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_atoi FE4 0 CODE 0 text40 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_main 1690 0 CODE 0 maintext dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_atoi FFE 0 CODE 0 text35 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_main 1B40 0 CODE 0 maintext dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_send 13D4 0 CODE 0 text9 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __end_of_wait 8 0 CODE 0 text1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 isdigit@c 21 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_ofi1_changeThermometerChannel 10EE 0 CODE 0 text35 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_ofi1_turnOnLCD 125E 0 CODE 0 text34 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_clearIfFirst 1128 0 CODE 0 text36 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_ofi1_changeThermometerChannel 11D8 0 CODE 0 text34 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_ofi1_turnOnLCD 1342 0 CODE 0 text40 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_clearIfFirst 122C 0 CODE 0 text41 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _ADCS0 FE 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __end_of_dpowers 1034 0 STRING 0 strings dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_flank 1168 0 CODE 0 text27 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-showTemp@temp D2 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-?_sprintf 46 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_flank 126C 0 CODE 0 text31 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+showTemp@temp D1 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+?_sprintf 48 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _PORTB 6 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _PORTC 7 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 _SPBRG 99 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
@@ -1087,33 +1102,33 @@ _TRISC 87 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.prod
 _TXREG 19 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
-_clear 62 0 BANK0 1 dataBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_clear 59 0 BANK0 1 dataBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 interrupt_function 8 0 CODE 0 intentry dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_flank 1148 0 CODE 0 text27 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_ZeroSequenceKeyboard 10BA 0 CODE 0 text28 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-?_isItHot 38 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_configKeyboard 1090 0 CODE 0 text30 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_flank 124C 0 CODE 0 text31 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_ZeroSequenceKeyboard 118C 0 CODE 0 text26 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+?_isItHot 3A 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_configKeyboard 1162 0 CODE 0 text28 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_changeThermometerChannel 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __pintentry 8 0 CODE 0 intentry dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_putCharacter 140C 0 CODE 0 text24 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-showDifferenceTemp@tempDifference C5 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-i1_sendNibble 1708 0 CODE 0 text38 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_putCharacter 152A 0 CODE 0 text24 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+showDifferenceTemp@tempDifference D1 0 BANK1 1 cstackBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+i1_sendNibble 187C 0 CODE 0 text43 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __HdataBANK0 0 0 ABS 0 dataBANK0 -
 __HdataBANK1 0 0 ABS 0 dataBANK1 -
-_globalInterruption 12F2 0 CODE 0 text31 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_globalInterruption 140E 0 CODE 0 text32 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 atoi@a 2B 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 atoi@s 2D 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_getVoltaje 1188 0 CODE 0 text12 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_getVoltaje 128C 0 CODE 0 text13 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __size_of_sendNibble 0 0 ABS 0 - dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __initialization 22 0 CODE 0 cinit dist/default/production\ProyectoTermometroDiferencial.X.production.o
-___xxtofl@sign 42 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+___xxtofl@sign 44 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __pbssBANK0 5D 0 BANK0 1 bssBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__pbssBANK1 E6 0 BANK1 1 bssBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_clearLCD FE4 0 CODE 0 text17 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__pbssBANK1 E0 0 BANK1 1 bssBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_clearLCD 11D8 0 CODE 0 text29 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 __pstrings 1000 0 STRING 0 strings dist/default/production\ProyectoTermometroDiferencial.X.production.o
-_showDiferenceTemp E6 0 BANK1 1 bssBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+_showDiferenceTemp E2 0 BANK1 1 bssBANK1 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 ___wmul@product 24 0 BANK0 1 cstackBANK0 dist/default/production\ProyectoTermometroDiferencial.X.production.o
-__end_of_clearLCD FFE 0 CODE 0 text17 dist/default/production\ProyectoTermometroDiferencial.X.production.o
+__end_of_clearLCD 11F2 0 CODE 0 text29 dist/default/production\ProyectoTermometroDiferencial.X.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -1139,52 +1154,54 @@ __end_of_clearLCD FFE 0 CODE 0 text17 dist/default/production\ProyectoTermometro
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text2 0 C8D 191A 4B 2
-text3 0 A56 14AC 2C 2
-text4 0 95C 12B8 1D 2
-text5 0 CD8 19B0 62 2
-text6 0 A82 1504 2D 2
-text7 0 D3A 1A74 94 2
-text8 0 F26 1E4C DA 2
-text9 0 B48 1690 3C 2
-text10 0 C47 188E 46 2
-text11 0 C02 1804 45 2
-text12 0 8C4 1188 10 2
-text13 0 E6A 1CD4 BC 2
-text14 0 DCE 1B9C 9C 2
-text16 0 A2D 145A 29 2
-text18 0 877 10EE D 2
-text19 0 944 1288 18 2
-text20 0 AAF 155E 2E 2
-text21 0 8B4 1168 10 2
-text22 0 ADD 15BA 33 2
-text23 0 99A 1334 22 2
-text24 0 9E1 13C2 25 2
-text25 0 92F 125E 15 2
-text26 0 BC3 1786 3F 2
-text27 0 8A4 1148 10 2
-text28 0 852 10A4 B 2
-text29 0 8E4 11C8 11 2
-text30 0 848 1090 A 2
-text31 0 979 12F2 21 2
-text33 0 9BC 1378 25 2
-text34 0 91A 1234 15 2
-text35 0 86A 10D4 D 2
-text36 0 894 1128 10 2
-text37 0 85D 10BA D 2
-text38 0 B84 1708 3F 2
-text39 0 884 1108 10 2
-text41 0 906 120C 14 2
-text42 0 A06 140C 27 2
-maintext 0 B10 1620 38 2
-cstackBANK0 1 20 20 46 1
+text2 0 BCF 179E 33 2
+text3 0 DA0 1B40 6C 2
+text4 0 B11 1622 2D 2
+text5 0 E9E 1D3C A6 2
+text7 0 C02 1804 3C 2
+text8 0 CBC 1978 46 2
+text9 0 9CE 139C 1C 2
+text10 0 AE5 15CA 2C 2
+text11 0 9EA 13D4 1D 2
+text12 0 D02 1A04 4D 2
+text13 0 946 128C 10 2
+text14 0 F44 1E88 BC 2
+text15 0 E0C 1C18 92 2
+text17 0 ABC 1578 29 2
+text18 0 8F9 11F2 D 2
+text19 0 9B6 136C 18 2
+text20 0 B3E 167C 2E 2
+text21 0 936 126C 10 2
+text22 0 B9C 1738 33 2
+text23 0 A29 1452 22 2
+text24 0 A70 14E0 25 2
+text25 0 9A1 1342 15 2
+text26 0 8BB 1176 B 2
+text27 0 956 12AC 11 2
+text28 0 8B1 1162 A 2
+text29 0 8EC 11D8 D 2
+text30 0 C7D 18FA 3F 2
+text31 0 926 124C 10 2
+text32 0 A07 140E 22 2
+text34 0 8DF 11BE D 2
+text36 0 978 12F0 14 2
+text37 0 A95 152A 27 2
+text38 0 B6C 16D8 30 2
+text39 0 A4B 1496 25 2
+text40 0 98C 1318 15 2
+text41 0 916 122C 10 2
+text42 0 8D2 11A4 D 2
+text43 0 C3E 187C 3F 2
+text44 0 906 120C 10 2
+maintext 0 D4F 1A9E 51 2
+cstackBANK0 1 20 20 44 1
 cstackBANK1 1 A0 A0 48 1
-inittext 0 8F5 11EA 11 2
+inittext 0 967 12CE 11 2
 intentry 0 4 8 7FB 2
 reset_vec 0 0 0 4 2
-idataBANK0 0 844 1088 4 2
-idataBANK1 0 8D4 11A8 10 2
-strings 0 800 1000 34 2
+idataBANK0 0 8C6 118C C 2
+idataBANK1 0 8AD 115A 4 2
+strings 0 800 1000 36 2
 # OTES Section
 # This section contains data of all the note-psects.  The beginning of the section
 # is indicated by OTES. The first line indicates the name and decimal
