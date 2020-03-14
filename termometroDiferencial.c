@@ -218,9 +218,8 @@ void changeThermometerChannel(int channel) {
  * @param character caracter a agregar
  */
 void addCharToMaxTemp(char character) {
-
+    //clearIfFirst(); // si es la primera tecla que oprime borra el mensaje que hay en LCD
     if (waiting) { //si esta en espera (modo conf)
-        clearIfFirst(); // si es la primera tecla que oprime borra el mensaje que hay en LCD
         if (cont < 3) { //si no se han apretado mas de 3 digitos
             maxTempString[cont] = character; //concatena a la temp maxima
             putCharacter(character, cont); //pone el caracter en el LCD
@@ -233,43 +232,44 @@ void addCharToMaxTemp(char character) {
  * Funcion que escucha los eventos del teclado.
  */
 void keyboard() {
-
     switch (PORTB) {
         case 238: //7
-            if (waiting) { //si esta en espera (modo conf)
-                clearIfFirst(); // si es la primera tecla que oprime borra el mensaje que hay en LCD
-                if (cont < 3) { //si no se han apretado mas de 3 digitos
-                    maxTempString[cont] = '7'; //concatena a la temp maxima
-                    putCharacter('7', cont); //pone el caracter en el LCD
-                    cont++; //incrementa posicion del puntero en LCD
-                }
-            }
+            clearIfFirst();
+            addCharToMaxTemp('7');
             break;
         case 222: //8
+            clearIfFirst();
             addCharToMaxTemp('8');
             break;
         case 190://9
+            clearIfFirst();
             addCharToMaxTemp('9');
             break;
         case 237://4
+            clearIfFirst();
             addCharToMaxTemp('4');
             break;
         case 221://5
+            clearIfFirst();
             addCharToMaxTemp('5');
             break;
         case 189: // 6
+            clearIfFirst();
             addCharToMaxTemp('6');
             break;
         case 235: // 1
+            clearIfFirst();
             addCharToMaxTemp('1');
             break;
         case 219: // 2
+            clearIfFirst();
             addCharToMaxTemp('2');
             break;
         case 187: // 3
+            clearIfFirst();
             addCharToMaxTemp('3');
             break;
-        case 215: //0
+        case 215: //0clearIfFirst();
             addCharToMaxTemp('0');
             break;
         case 125: //x
@@ -415,6 +415,8 @@ void main(void) {
             clearLCD();
             showTemp(); //  MUESTRA TEMPERATURAS  //
         } else if (showDiferenceTemp) {
+            __delay_ms(150);
+            clearLCD();
             showDifferenceTemp(); //  DIFERENCIA DE TEMPERATURA  //
         }
     }

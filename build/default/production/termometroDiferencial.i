@@ -2003,7 +2003,6 @@ void changeThermometerChannel(int channel) {
 void addCharToMaxTemp(char character) {
 
     if (waiting) {
-        clearIfFirst();
         if (cont < 3) {
             maxTempString[cont] = character;
             putCharacter(character, cont);
@@ -2016,40 +2015,41 @@ void addCharToMaxTemp(char character) {
 
 
 void keyboard() {
-
     switch (PORTB) {
         case 238:
-            if (waiting) {
-                clearIfFirst();
-                if (cont < 3) {
-                    maxTempString[cont] = '7';
-                    putCharacter('7', cont);
-                    cont++;
-                }
-            }
+            clearIfFirst();
+            addCharToMaxTemp('7');
             break;
         case 222:
+            clearIfFirst();
             addCharToMaxTemp('8');
             break;
         case 190:
+            clearIfFirst();
             addCharToMaxTemp('9');
             break;
         case 237:
+            clearIfFirst();
             addCharToMaxTemp('4');
             break;
         case 221:
+            clearIfFirst();
             addCharToMaxTemp('5');
             break;
         case 189:
+            clearIfFirst();
             addCharToMaxTemp('6');
             break;
         case 235:
+            clearIfFirst();
             addCharToMaxTemp('1');
             break;
         case 219:
+            clearIfFirst();
             addCharToMaxTemp('2');
             break;
         case 187:
+            clearIfFirst();
             addCharToMaxTemp('3');
             break;
         case 215:
@@ -2198,6 +2198,8 @@ void main(void) {
             clearLCD();
             showTemp();
         } else if (showDiferenceTemp) {
+            _delay((unsigned long)((150)*(4000000/4000.0)));
+            clearLCD();
             showDifferenceTemp();
         }
     }
