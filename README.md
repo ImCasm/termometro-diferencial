@@ -14,7 +14,7 @@ Luego de ingresar la temperatura umbral presione la tecla ```=``` del teclado he
 Si la temperatura que se está leyendo actualmente en el LCD supera la temperatural umbral se emitirá un mensaje de peligro por el puerto serial.
 
 
-## Controles del teclado
+## Controles del teclado hexadecimal
 
 
 ```÷``` Permite ingresar al modo de configuración del temperatura umbral.
